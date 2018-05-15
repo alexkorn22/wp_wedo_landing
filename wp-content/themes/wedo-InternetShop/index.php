@@ -899,31 +899,32 @@
         <div class="row append-dots">
             <div class="all-card owl-carousel slider-seo">
                 <div class="item">
-                    <div class="card-wrap">
-                        <div class="card">
-                            <div class="title-card"><p>SEO</p></div>
-                            <div class="description-card"><p>Увеличение видимости интернет-магазина в поисковой системе
-                                    и привлечение пользователей</p></div>
-                        </div>
-                    </div>
+                    <div class="card-wrap"><a href="../seo/" class="link-to-other-page" target="_blank">
+                            <div class="card">
+                                <div class="title-card"><p>SEO</p></div>
+                                <div class="description-card"><p>Увеличение видимости интернет-магазина в поисковой системе
+                                        и привлечение пользователей</p></div>
+                            </div>
+                        </a></div>
                 </div>
                 <div class="item">
-                    <div class="card-wrap">
-                        <div class="card">
-                            <div class="title-card"><p>PPC</p></div>
-                            <div class="description-card"><p>Контекстная реклама для быстрого привлечения клиентов,
-                                    планирующих покупку</p></div>
-                        </div>
-                    </div>
+                    <div class="card-wrap"><a href="../kontekstnaya-reklama/" class="link-to-other-page"
+                                              target="_blank">
+                            <div class="card">
+                                <div class="title-card"><p>PPC</p></div>
+                                <div class="description-card"><p>Контекстная реклама для быстрого привлечения клиентов,
+                                        планирующих покупку</p></div>
+                            </div>
+                        </a></div>
                 </div>
                 <div class="item">
-                    <div class="card-wrap">
-                        <div class="card">
-                            <div class="title-card"><p>SMM</p></div>
-                            <div class="description-card"><p>Повышения узнаваемости компании и бренда, завоевания
-                                    доверия потенциальных клиентов</p></div>
-                        </div>
-                    </div>
+                    <div class="card-wrap"><a href="../smm/" class="link-to-other-page" target="_blank">
+                            <div class="card">
+                                <div class="title-card"><p>SMM</p></div>
+                                <div class="description-card"><p>Повышения узнаваемости компании и бренда, завоевания
+                                        доверия потенциальных клиентов</p></div>
+                            </div>
+                        </a></div>
                 </div>
             </div>
         </div>
