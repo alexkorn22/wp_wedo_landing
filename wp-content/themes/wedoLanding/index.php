@@ -98,38 +98,44 @@
         </div>
     </div>
 </section>
-<section id="advancement">
-    <div class="container">
-        <div class="row wrap-title justify-content-end">
-            <div class="col-12 col-md-12 col-xl-11"><h2>Продвижение интернет-магазина</h2>
-                <h2>мы приведем на сайт целевых покупателей<br>и повысим узнаваемость бренда</h2></div>
-        </div>
-        <div class="row items justify-content-center no-gutters">
-            <div class="col-12 col-md-6 col-xl-4 align-self-center item"><p>SEO</p>
-                <p>Увеличение видимости<br>интернет-магазина в<br>поисковой системе и<br>привлечение пользователей</p>
+
+    <section id="advancement">
+        <div class="container">
+            <div class="row wrap-title justify-content-end">
+                <div class="col-12 col-md-12 col-xl-11"><h2>Продвижение интернет-магазина</h2>
+                    <h2>мы приведем на сайт целевых покупателей<br>и повысим узнаваемость бренда</h2></div>
             </div>
-            <div class="col-12 col-md-6 col-xl-4 align-self-center item"><p>PPC</p>
-                <p>Контекстная реклама<br>для быстрого привлечения<br>клиентов, планирующих<br>покупку</p></div>
-            <div class="col-12 col-md-6 col-xl-11 align-self-center item hidden-sm-down">
-                <div class="wrap-btn">
-                    <div class="button"><a href="#" data-toggle="modal" data-target="#myModal" class="btn-pink"
-                                           data-wipe="Что выбрать Вам?">Что выбрать Вам?</a></div>
+            <div class="row items justify-content-center no-gutters">
+                <div class="col-12 col-md-6 col-xl-4 align-self-center item"><a href="/seo/" class="link-to-other-page"
+                                                                                target="_blank"><p>SEO</p>
+                        <p>Увеличение видимости<br>интернет-магазина в<br>поисковой системе и<br>привлечение
+                            пользователей</p></a></div>
+                <div class="col-12 col-md-6 col-xl-4 align-self-center item"><a href="/kontekstnaya-reklama/"
+                                                                                class="link-to-other-page"
+                                                                                target="_blank"><p>PPC</p>
+                        <p>Контекстная реклама<br>для быстрого привлечения<br>клиентов, планирующих<br>покупку</p></a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-11 align-self-center item hidden-sm-down">
+                    <div class="wrap-btn">
+                        <div class="button"><a href="#" data-toggle="modal" data-target="#myModal" class="btn-pink"
+                                               data-wipe="Что выбрать Вам?">Что выбрать Вам?</a></div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 align-self-center item"><a href="/smm/" class="link-to-other-page"
+                                                                                target="_blank"><p>SMM</p>
+                        <p>Повышения узнаваемости<br>компании и бренда,<br>завоевания доверия<br>потенциальных клиентов
+                        </p></a></div>
+            </div>
+            <div class="row justify-content-end">
+                <div class="col-12 col-xl-11">
+                    <div class="wrap-btn">
+                        <div class="button"><a href="#" data-toggle="modal" data-target="#myModal" class="btn-pink"
+                                               data-wipe="Что выбрать Вам?">Что выбрать Вам?</a></div>
+                    </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-xl-4 align-self-center item"><p>SMM</p>
-                <p>Повышения узнаваемости<br>компании и бренда,<br>завоевания доверия<br>потенциальных клиентов</p>
-            </div>
         </div>
-        <div class="row justify-content-end">
-            <div class="col-12 col-xl-11">
-                <div class="wrap-btn">
-                    <div class="button"><a href="#" data-toggle="modal" data-target="#myModal" class="btn-pink"
-                                           data-wipe="Что выбрать Вам?">Что выбрать Вам?</a></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal">
