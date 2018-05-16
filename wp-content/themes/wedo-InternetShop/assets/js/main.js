@@ -19,7 +19,7 @@ $(document).ready(function () {
         autoplayTimeout: 7e3,
         dots: !1,
         nav: !0,
-        navText: ["<img src='/wp-content/themes/wedo-InternetShop/assets/img/Arrows-Back-icon.png'>", "<img src='/wp-content/themes/wedo-InternetShop/assets/img/Arrows-Back-icon.png'>"],
+        navText: ["<img src='/wp-content/themes/wedoLandings/assets/img/Arrows-Back-icon.png'>", "<img src='/wp-content/themes/wedoLandings/assets/img/Arrows-Back-icon.png'>"],
         responsive: {0: {items: 1, dots: !0, nav: !1}, 600: {items: 1, dots: !0, nav: !1}, 1e3: {items: 1}}
     }), $(window).scroll(function () {
         $("header").css("background-position", "50% " + -$(this).scrollTop() / 2 + "px")
