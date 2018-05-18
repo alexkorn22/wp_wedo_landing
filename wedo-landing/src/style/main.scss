@@ -1,0 +1,17 @@
+//libs
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic');
+@import "variable";
+@import "home";
+@import "category";
+@import "product";
+body {
+  background: white url("../img/bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: $font;
+}
+.content {
+  min-height: 81vh;
+}
+//media
+@import "media";
