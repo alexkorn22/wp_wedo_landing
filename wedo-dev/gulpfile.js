@@ -18,7 +18,7 @@ var gulp = require('gulp'),
     rimrafGulp = require('gulp-rimraf'),
     reload = browserSync.reload;
 
-var path = {
+var pathCSS = {
     build: {
         html: 'build/',
         js: 'build/js/',
@@ -42,6 +42,34 @@ var path = {
     },
     clean: './build'
 };
+
+var pathWP = {
+    build: {
+        html: 'build/',
+        js: 'build/js/',
+        css: 'build/css/',
+        img: 'build/img/',
+        fonts: 'build/fonts/'
+    },
+    src: {
+        html: 'src/*.html',
+        js: 'src/js/*.js',
+        style: 'src/style/main.scss',
+        img: 'src/img/**/*.*',
+        fonts: 'src/fonts/**/*.*'
+    },
+    watch: {
+        html: 'src/**/*.html',
+        js: 'src/js/**/*.js',
+        style: 'src/style/**/*.scss',
+        img: 'src/img/**/*.*',
+        fonts: 'src/fonts/**/*.*'
+    },
+    clean: './build'
+};
+
+var path = pathWP ;
+
 
 var config = {
     server: {
