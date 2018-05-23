@@ -68,7 +68,7 @@ var pathWP = {
     clean: './build'
 };
 
-var path = pathWP ;
+var path = pathCSS ;
 
 
 var config = {
