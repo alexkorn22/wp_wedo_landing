@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/wedoLandingWP.iml" filepath="$PROJECT_DIR$/.idea/wedoLandingWP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/wedo.wp.loc.iml" filepath="$PROJECT_DIR$/.idea/wedo.wp.loc.iml" />
     </modules>
   </component>
 </project>

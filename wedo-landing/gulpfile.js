@@ -14,7 +14,7 @@ var gulp = require('gulp'),
     browserSync = require("browser-sync"),
     reload = browserSync.reload;
 
-var path = {
+var pathCSS = {
     build: {
         html: 'build/',
         js: 'build/js/',
@@ -38,6 +38,32 @@ var path = {
     },
     clean: './build'
 };
+var pathWP = {
+    build: {
+        html: 'www/wp-content/themes/wedoMain/assets/',
+        js: 'www/wp-content/themes/wedoMain/assets/js/',
+        css: 'www/wp-content/themes/wedoMain/assets/css/',
+        img: 'www/wp-content/themes/wedoMain/assets/img/',
+        fonts: 'www/wp-content/themes/wedoMain/assets/fonts/'
+    },
+    src: {
+        html: 'src/*.html',
+        js: 'src/js/*.js',
+        style: 'src/style/main.scss',
+        img: 'src/img/**/*.*',
+        fonts: 'src/fonts/**/*.*'
+    },
+    watch: {
+        html: 'src/**/*.html',
+        js: 'src/js/**/*.js',
+        style: 'src/style/**/*.scss',
+        img: 'src/img/**/*.*',
+        fonts: 'src/fonts/**/*.*'
+    },
+    clean: './build'
+};
+
+var path = pathCSS;
 
 var config = {
     server: {
