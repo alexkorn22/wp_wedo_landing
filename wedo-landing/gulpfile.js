@@ -38,13 +38,14 @@ var pathCSS = {
     },
     clean: './build'
 };
+var pathThemeWP = "../www/wp-content/themes/wedoMain/assets";
 var pathWP = {
     build: {
-        html: 'www/wp-content/themes/wedoMain/assets/',
-        js: 'www/wp-content/themes/wedoMain/assets/js/',
-        css: 'www/wp-content/themes/wedoMain/assets/css/',
-        img: 'www/wp-content/themes/wedoMain/assets/img/',
-        fonts: 'www/wp-content/themes/wedoMain/assets/fonts/'
+        html: 'build/',
+        js: pathThemeWP + '/js/',
+        css: pathThemeWP + '/css/',
+        img: pathThemeWP + '/img/',
+        fonts: pathThemeWP + '/fonts/'
     },
     src: {
         html: 'src/*.html',
@@ -164,3 +165,8 @@ gulp.task('watch', function(){
 
 
 gulp.task('default', ['build', 'webserver', 'watch']);
+
+gulp.task('wp', function () {
+    path = pathWP;
+    gulp.start('build');
+});
