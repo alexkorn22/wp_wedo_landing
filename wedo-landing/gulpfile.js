@@ -23,7 +23,7 @@ var pathCSS = {
         fonts: 'build/fonts/'
     },
     src: {
-        html: 'src/*.html',
+        html: 'src/**/*.html',
         js: 'src/js/*.js',
         style: 'src/style/main.scss',
         img: 'src/img/**/*.*',
@@ -120,14 +120,14 @@ gulp.task('style:build', function () {
 
 gulp.task('image:build', function () {
     gulp.src(path.src.img) 
-        .pipe(imagemin({
-            progressive: true,
-            svgoPlugins: [{removeViewBox: false}],
-            use: [pngquant()],
-            interlaced: true
-        }))
-        .pipe(gulp.dest(path.build.img))
-        .pipe(reload({stream: true}));
+        // .pipe(imagemin({
+        //     progressive: true,
+        //     svgoPlugins: [{removeViewBox: false}],
+        //     use: [pngquant()],
+        //     interlaced: true
+        // }))
+        .pipe(gulp.dest(path.build.img));
+        // .pipe(reload({stream: true}));
 });
 
 gulp.task('fonts:build', function() {

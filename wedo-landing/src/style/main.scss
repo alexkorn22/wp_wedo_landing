@@ -1,17 +1,38 @@
-//libs
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic');
+@import "fonts";
 @import "variable";
+@import "../../node_modules/bootstrap/scss/bootstrap-reboot";
 @import "home";
-@import "category";
-@import "product";
+@import "vacansies";
+@import "reklama";
+@import "seo";
+@import "smm";
+@import "im";
+@import "site";
+@import "modules/button";
+@import "selectric";
+@import "bootstrap-formhelpers.min.css";
+@import "animate.css";
+
 body {
-  background: white url("../img/bg.png");
+  background: $white;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  font-family: $font;
+  font-family: $OpenSansLight;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding-right: 0px !important;
+  h1, h2, h3, h4, h5, h6 {
+    font: inherit;
+    font-size: 100%;
+  }
+  a:focus {
+    outline: none;
+  }
 }
-.content {
-  min-height: 81vh;
-}
+
 //media
 @import "media";
+@import "owl.carousel.min.css";
+@import "owl.theme.default.min.css";

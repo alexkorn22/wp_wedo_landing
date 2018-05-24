@@ -1,2 +1,0 @@
-# wedo_landing
-Landing
