@@ -1,0 +1,104 @@
+.hamburger-menu {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  .responsive-nav {
+    //position: absolute;
+    //top: 50%;
+    transform: translate(0, -50%);
+    //right: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+
+  .responsive-nav.active-hamburger {
+    transform: translate(-280px, -50%);
+    z-index: 11;
+    position: fixed;
+  }
+
+  .responsive-nav.active-hamburger span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px);
+    -webkit-transform: rotate(-45deg) translate(-6px);
+  }
+
+  .responsive-nav.active-hamburger span:nth-child(2) {
+    transform: translateY(-40px) rotate(360deg);
+    -webkit-transform: translateY(-40px) rotate(360deg);
+    display: none;
+  }
+
+  .responsive-nav.active-hamburger span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px);
+    -webkit-transform: rotate(45deg) translate(-6px);
+  }
+
+  .responsive-nav span {
+    display: block;
+    height: 3px;
+    width: 30px;
+    background: white;
+    margin: 5px 0;
+    transition: all 0.5s ease;
+  }
+
+  nav {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    -webkit-transform: translate(400px);;
+    transform: translate(400px);
+    width: 400px;
+    background: #090909;
+    height: 100vh;
+    transition: all 0.45s ease;
+    z-index: 10;
+  }
+
+  nav.active-nav {
+    transform: translate(0);
+    right: 0;
+  }
+
+  .main-menu {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    li {
+      list-style: none;
+    }
+    li.current_page {
+      a {
+        color: $pink;
+      }
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding: 10px;
+      text-align: right;
+      font-size: 32px;
+      transition: 0.5s ease;
+      padding-right: 20px;
+      &:hover {
+        color: $pink;
+      }
+    }
+  }
+}
+
+.overlay-body {
+  background-color: rgba(0,0,0,0.5);
+  height: 100%;
+  position: fixed;
+  width: 100vw;
+  z-index: 5;
+}
