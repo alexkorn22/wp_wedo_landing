@@ -179,6 +179,29 @@
         }
       }
     }
+    .block-tags {
+      padding: 30px 10px;
+      border-radius: 5px;
+      background-color: #fafafa;
+      .title-block {
+        font-size: 24px;
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+      }
+      .tag {
+        text-decoration: none;
+        color: $black;
+        background-color: #ededed;
+        padding: 0 10px;
+        margin: 0 4px 10px 4px;
+        display: inline-block;
+        &_active {
+          background-color: $pink;
+          color: $white;
+        }
+      }
+    }
   }
 }
 
