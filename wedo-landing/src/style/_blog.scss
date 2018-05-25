@@ -143,10 +143,19 @@
         height: auto;
       }
       .phone a{
-        font-size: 14px;
+        font-size: 12px;
       }
     }
-    .bottom-line {}
+    .bottom-line {
+      .date-news {
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+      .title-news {
+        font-size: 22px;
+        line-height: 24px;
+      }
+    }
   }
 }
 
@@ -307,6 +316,9 @@
           }
         }
       }
+      @include media-breakpoint-down(md){
+        margin-bottom: 40px;
+      }
     }
   }
   .wrap-content-news {
@@ -314,6 +326,11 @@
     line-height: 28px;
     width: 100%;
     margin-bottom: 70px;
+    @include media-breakpoint-down(sm){
+      font-size: 16px;
+      line-height: 21px;
+      margin-bottom: 50px;
+    }
     b {
       font-family: $OpenSansRegular;
       font-weight: normal;
