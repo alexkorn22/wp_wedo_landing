@@ -79,3 +79,106 @@
   }
 }
 
+.content-blog {
+  .preview-news {
+    .wrap-preview-new {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 100px;
+      .date-new {
+        font-size: 12px;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 5px;
+      }
+      .link-to-news {
+        text-decoration: none;
+        &:hover {
+          .img-new {
+            background-color: rgba($gray, 0.3);
+            box-shadow: 0 2px 20px 0 rgba($black, .1);
+          }
+        }
+      }
+      .img-new {
+        width:250px;
+        height:220px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: multiply;
+        transition: 0.5s ease;
+      }
+      .title-new {
+        text-align: center;
+        font-family: $OpenSansRegular;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.3px;
+        margin: 15px 0;
+      }
+      .descr-new {
+        text-align: center;
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+  }
+  .wrap-sidebar {
+    .popular-news {
+      padding: 30px 10px;
+      box-shadow: 0 0 20px 0 rgba($black, .1);
+      border-radius: 5px;
+      margin-bottom: 100px;
+      .title-block {
+        font-size: 24px;
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+      }
+      .link-to-news {
+        text-decoration: none;
+        color: $black;
+        transition: .5s ease;
+        &:hover {
+          color: $orange;
+          .item .img {
+            background-color: rgba($orange, 0.2);
+          }
+        }
+      }
+      .wrap-item {
+        .item {
+          display: flex;
+          margin-top: 20px;
+          .img {
+            min-width: 70px;
+            max-width: 70px;
+            height: 60px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin-right: 10px;
+            background-blend-mode: multiply;
+            transition: .5s ease;
+          }
+          .text{
+            width: 100%;
+            .title {
+              font-size: 16px;
+              line-height: 22px;
+              font-family: $OpenSansRegular;
+            }
+            .descr {
+              font-size: 12px;
+              line-height:15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
