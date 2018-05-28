@@ -102,7 +102,7 @@
 .head-seo {
   height: 100vh;
   width: 100%;
-  background-image: url(/img/bg-head-seo.png);
+  background-image: url(../img/bg-head-seo.png);
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -378,7 +378,7 @@
       transition: 0.2s;
       
       .arrow {
-        background-image: url(/img/icons/long-arrow-green.png);
+        background-image: url(../img/icons/long-arrow-green.png);
         background-repeat: no-repeat;
         width: 25px;
         height: 13px;
@@ -394,7 +394,7 @@
         //color: $white;
         cursor: pointer;
         .arrow {
-          background-image: url(/img/icons/long-arrow-white.png);
+          background-image: url(../img/icons/long-arrow-white.png);
           right: 0.2%;
         }
       }
@@ -407,7 +407,7 @@
         cursor: pointer;
         font-family: $OpenSansSemibold;
         .arrow {
-          background-image: url(/img/icons/long-arrow-white.png);
+          background-image: url(../img/icons/long-arrow-white.png);
           right: 0.2%;
         }
         //&::after {
@@ -443,7 +443,7 @@
   }
   .result-content {
     min-height: 740px;
-    background-image: url(/img/bg-charts2.png);
+    background-image: url(../img/bg-charts2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -909,7 +909,7 @@
 
   .wrap-when-result {
     margin-top: 60px;
-    background-image: url(/img/bg-gray.png);
+    background-image: url(../img/bg-gray.png);
     background-repeat: no-repeat;
     background-position: center left;
     background-size: 50%;
