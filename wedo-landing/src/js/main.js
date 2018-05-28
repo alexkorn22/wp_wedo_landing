@@ -611,4 +611,16 @@ $( document ).ready(function() {
 
 
 
+//hamburger menu
+    $('.responsive-nav').click(function(){
+        $('nav').toggleClass('active-nav');
+        if ($("nav").hasClass('active-nav')) {
+            $('<div class="overlay-body">&nbsp;</div>').prependTo($('body'));
+        } else {
+            $('.overlay-body').remove();
+        }
+    });
+
+
+
 });
