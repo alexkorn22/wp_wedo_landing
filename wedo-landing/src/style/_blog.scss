@@ -217,11 +217,17 @@
     }
   }
   .wrap-sidebar {
+    height: 100%;
+    .sidebar {
+      position: sticky;
+      top: 20px;
+      min-height: 2em;
+    }
     .popular-news {
       padding: 30px 10px;
       box-shadow: 0 0 20px 0 rgba($black, .1);
       border-radius: 5px;
-      margin-bottom: 100px;
+      margin-bottom: 40px;
       .title-block {
         font-size: 24px;
         margin-bottom: 20px;
@@ -295,6 +301,8 @@
     }
     .back-to-list {
       position: relative;
+      display: inline-block;
+      margin-bottom: 50px;
       .back-link {
         background-color: $pink;
         padding: 10px 15px 10px 35px;
