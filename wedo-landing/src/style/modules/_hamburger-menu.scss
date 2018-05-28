@@ -6,61 +6,62 @@
   justify-content: flex-end;
 
   .responsive-nav {
-    //position: absolute;
-    //top: 50%;
     transform: translate(0, -50%);
-    //right: 10px;
     cursor: pointer;
-    transition: all 0.5s ease;
-  }
+    @include media-breakpoint-down(sm){
+      transform: translate(0, -10%);
+    }
 
-  .responsive-nav.active-hamburger {
-    transform: translate(-280px, -50%);
-    z-index: 11;
-    position: fixed;
-  }
-
-  .responsive-nav.active-hamburger span:nth-child(1) {
-    transform: rotate(-45deg) translate(-5px);
-    -webkit-transform: rotate(-45deg) translate(-6px);
-  }
-
-  .responsive-nav.active-hamburger span:nth-child(2) {
-    transform: translateY(-40px) rotate(360deg);
-    -webkit-transform: translateY(-40px) rotate(360deg);
-    display: none;
-  }
-
-  .responsive-nav.active-hamburger span:nth-child(3) {
-    transform: rotate(45deg) translate(-5px);
-    -webkit-transform: rotate(45deg) translate(-6px);
-  }
-
-  .responsive-nav span {
-    display: block;
-    height: 3px;
-    width: 30px;
-    background: white;
-    margin: 5px 0;
-    transition: all 0.5s ease;
+    span {
+      display: block;
+      height: 3px;
+      width: 30px;
+      background: white;
+      margin: 5px 0;
+    }
   }
 
   nav {
     position: fixed;
     right: -100%;
     top: 0;
-    -webkit-transform: translate(400px);;
-    transform: translate(400px);
-    width: 400px;
+    -webkit-transform: translate(450px);;
+    transform: translate(450px);
+    width: 450px;
     background: #090909;
     height: 100vh;
-    transition: all 0.45s ease;
+    transition: all 0.5s ease;
     z-index: 10;
-  }
+    @include media-breakpoint-down(xs){
+      width: 100vw;
+    }
 
-  nav.active-nav {
-    transform: translate(0);
-    right: 0;
+    .responsive-nav {
+      cursor: pointer;
+      transition: all 0.5s ease;
+      z-index: 11;
+      position: fixed;
+      top: 34px;
+      left: 25px;
+      span {
+        &:nth-child(1){
+          transform: rotate(-45deg) translate(-5px);
+          -webkit-transform: rotate(-45deg) translate(-6px);
+        }
+        &:nth-child(2){
+          display: none;
+        }
+        &:nth-child(3){
+          transform: rotate(45deg) translate(-5px);
+          -webkit-transform: rotate(45deg) translate(-6px);
+        }
+      }
+    }
+
+    &.active-nav {
+      transform: translate(0);
+      right: 0;
+    }
   }
 
   .main-menu {
@@ -87,9 +88,12 @@
       text-align: right;
       font-size: 32px;
       transition: 0.5s ease;
-      padding-right: 20px;
+      padding-right: 30px;
       &:hover {
         color: $pink;
+      }
+      @include media-breakpoint-down(sm){
+        font-size: 26px;
       }
     }
   }
@@ -101,4 +105,5 @@
   position: fixed;
   width: 100vw;
   z-index: 5;
+  transition: all 1s ease;
 }

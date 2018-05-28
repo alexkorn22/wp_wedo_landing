@@ -613,9 +613,8 @@ $( document ).ready(function() {
 
 //hamburger menu
     $('.responsive-nav').click(function(){
-        $(this).toggleClass('active-hamburger');
         $('nav').toggleClass('active-nav');
-        if ($(".responsive-nav").hasClass('active-hamburger')) {
+        if ($("nav").hasClass('active-nav')) {
             $('<div class="overlay-body">&nbsp;</div>').prependTo($('body'));
         } else {
             $('.overlay-body').remove();
