@@ -30,8 +30,16 @@
       .top-line {
         padding-top: 20px;
         width: auto;
-        height: 95px;
+        height: auto;
         color: $white;
+        .item{
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          &:nth-child(1){
+            justify-content: flex-start;
+          }
+        }
         .logo {
           width: 130px;
           @include media-breakpoint-up(md){
@@ -60,8 +68,15 @@
             @include media-breakpoint-down(sm){
               font-size: 12px;
               padding-left: 0;
-              margin-bottom: 5px;
+              //margin-bottom: 5px;
             }
+          }
+        }
+        .hamburger-menu {
+          .responsive-nav {
+            -webkit-transform: translate(0,0);
+            transform: translate(0,0);
+            cursor: pointer;
           }
         }
       }
