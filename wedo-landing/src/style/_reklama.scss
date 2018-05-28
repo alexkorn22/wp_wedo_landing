@@ -1,7 +1,7 @@
 .head-kr {
   height: 100vh;
   width: 100%;
-  background-image: url(/img/bg-head-ad.jpg);
+  background-image: url(../img/bg-head-ad.jpg);
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -311,10 +311,10 @@
           }
         }
         &.slide1 {
-          background-image: url(/img/slide1-ad.png);
+          background-image: url(../img/slide1-ad.png);
         }
         &.slide2 {
-          background-image: url(/img/slide2-ad.png);
+          background-image: url(../img/slide2-ad.png);
         }
       }
     }

@@ -8,7 +8,7 @@
 .head-smm {
   height: 100vh;
   width: 100%;
-  background-image: url(/img/bg-head-smm.png);
+  background-image: url(../img/bg-head-smm.png);
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -74,11 +74,11 @@
   }
 
   @include media-breakpoint-down(md){
-    background-image: url(/img/bg-head-smm_mob.jpg);
+    background-image: url(../img/bg-head-smm_mob.jpg);
   }
   @include media-breakpoint-down(sm){
     margin-bottom: 90px;
-    background-image: url(/img/bg-head-smm_mob.jpg);
+    background-image: url(../img/bg-head-smm_mob.jpg);
     .head-content {
       padding: 20px 15px 20px 15px;
     }
@@ -289,13 +289,13 @@
             }
           }
           &.slide1 {
-            background-image: url(/img/bg-slide1-smm.png);
+            background-image: url(../img/bg-slide1-smm.png);
           }
           &.slide2 {
-            background-image: url(/img/bg-slide2-smm.png);
+            background-image: url(../img/bg-slide2-smm.png);
           }
           &.slide3 {
-            background-image: url(/img/bg-slide3-smm.png);
+            background-image: url(../img/bg-slide3-smm.png);
           }
         }
       }
