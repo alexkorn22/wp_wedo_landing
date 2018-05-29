@@ -50,7 +50,7 @@
                             <span></span>
                         </div>
                         <ul class="main-menu">
-                            <li><a href="/index/">Главная</a></li>
+                            <li><a href="/">Главная</a></li>
                             <li><a href="/sozdanie-saitov/">Создание сайтов</a></li>
                             <li><a href="/internet-magaziny/">Создание интернет-магазинов</a></li>
                             <li><a href="/kontekstnaya-reklama/">Контекстная реклама</a></li>
