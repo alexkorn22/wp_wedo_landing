@@ -14,11 +14,11 @@
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
             crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="<?=$templateUriA?>/css/main.css">
-    <script src="<?=$templateUriA?>/js/jquery.selectric.js"></script>
-    <script src="<?=$templateUriA?>/js/bootstrap-formhelpers.min.js"></script>
+    <link rel="stylesheet" href="<?=$templateUriAssets?>/css/main.css">
+    <script src="<?=$templateUriAssets?>/js/jquery.selectric.js"></script>
+    <script src="<?=$templateUriAssets?>/js/bootstrap-formhelpers.min.js"></script>
 
-    <link rel="shortcut icon" href="<?=$templateUriA?>/img/for_im/logo_fav.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?=$templateUriAssets?>/img/for_im/logo_fav.ico" type="image/x-icon">
 
 </head>
 <body class="body-internet-magaziny">
@@ -27,7 +27,7 @@
         <div class="row top-line">
             <div class="col-4 col-md-5 col-lg-6 item">
                 <div class="logo">
-                    <a href=""><img src="<?=$templateUriA?>/img/for_im/logo.png" alt="WeDo"></a>
+                    <a href=""><img src="<?=$templateUriAssets?>/img/for_im/logo.png" alt="WeDo"></a>
                 </div>
             </div>
             <div class="col-6 col-md-6 col-lg-5 item">
@@ -713,7 +713,7 @@
             <div class="col-12 col-md item-fact">
                 <div class="wrap-fact">
                     <div class="icon">
-                        <img src="<?=$templateUriA?>/img/for_im/icon1.png" alt="Партнеры">
+                        <img src="<?=$templateUriAssets?>/img/for_im/icon1.png" alt="Партнеры">
                     </div>
                     <div class="text">
                         <p>Партнёр Google, Bitrix, Shopify</p>
@@ -723,7 +723,7 @@
             <div class="col-12 col-md item-fact">
                 <div class="wrap-fact">
                     <div class="icon">
-                        <img src="<?=$templateUriA?>/img/for_im/icon2.png" alt="Обучение сотрудников">
+                        <img src="<?=$templateUriAssets?>/img/for_im/icon2.png" alt="Обучение сотрудников">
                     </div>
                     <div class="text">
                         <p>Все сотрудники проходили обучение в Bitrix, Google, 1С</p>
@@ -733,7 +733,7 @@
             <div class="col-12 col-md item-fact">
                 <div class="wrap-fact">
                     <div class="icon">
-                        <img src="<?=$templateUriA?>/img/for_im/icon3.png" alt="Опыт работы">
+                        <img src="<?=$templateUriAssets?>/img/for_im/icon3.png" alt="Опыт работы">
                     </div>
                     <div class="text">
                         <p>Опыт работы в сфере IT (1С, web) с 2008 года</p>
@@ -746,7 +746,7 @@
             <div class="col-12 col-md item-fact">
                 <div class="wrap-fact">
                     <div class="icon">
-                        <img src="<?=$templateUriA?>/img/for_im/icon4.png" alt="Полный цикл">
+                        <img src="<?=$templateUriAssets?>/img/for_im/icon4.png" alt="Полный цикл">
                     </div>
                     <div class="text">
                         <p>Полный цикл Разработка - Интеграция - Поддержка - Продвижение</p>
@@ -756,7 +756,7 @@
             <div class="col-12 col-md item-fact">
                 <div class="wrap-fact">
                     <div class="icon">
-                        <img src="<?=$templateUriA?>/img/for_im/icon5.png" alt="Успешные проекты">
+                        <img src="<?=$templateUriAssets?>/img/for_im/icon5.png" alt="Успешные проекты">
                     </div>
                     <div class="text">
                         <p>Более 100 успешных проектов в 1С и web</p>
@@ -837,7 +837,7 @@
         <div class="row items justify-content-center align-items-center no-gutters">
             <div class="col-12 col-md-12 col-xl-12 item justify-content-center align-items-center">
                 <div class="logo-footer">
-                    <a href=""><img src="<?=$templateUriA?>/img/for_im/logo.png" alt="WeDo"></a>
+                    <a href=""><img src="<?=$templateUriAssets?>/img/for_im/logo.png" alt="WeDo"></a>
                     <div class="footer-phone">
                         <a href="tel:++38(098)150-83-95">+38(098)150-83-95</a>
                     </div>
@@ -856,7 +856,7 @@
                 <div class="row justify-content-end">
                     <div class="col-2 justify-content-end">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <img src="<?=$templateUriA?>/img/for_im/close.png" alt="">
+                            <img src="<?=$templateUriAssets?>/img/for_im/close.png" alt="">
                         </button>
                     </div>
                 </div>
@@ -911,7 +911,7 @@
                 <div class="row justify-content-end">
                     <div class="col-2 justify-content-end">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <img src="<?=$templateUriA?>/img/for_im/close.png" alt="">
+                            <img src="<?=$templateUriAssets?>/img/for_im/close.png" alt="">
                         </button>
                     </div>
                 </div>
@@ -999,10 +999,10 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="<?=$templateUriA?>/js/owl.carousel.min.js"></script>
-<script src="<?=$templateUriA?>/js/config.js"></script>
-<script src="<?=$templateUriA?>/js/waypoints.min.js"></script>
-<script src="<?=$templateUriA?>/js/animate-css.js"></script>
-<script src="<?=$templateUriA?>/js/main.js"></script>
+<script src="<?=$templateUriAssets?>/js/owl.carousel.min.js"></script>
+<script src="<?=$templateUriAssets?>/js/config.js"></script>
+<script src="<?=$templateUriAssets?>/js/waypoints.min.js"></script>
+<script src="<?=$templateUriAssets?>/js/animate-css.js"></script>
+<script src="<?=$templateUriAssets?>/js/main.js"></script>
 </body>
 </html>

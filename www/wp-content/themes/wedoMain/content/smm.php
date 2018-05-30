@@ -16,10 +16,10 @@
             crossorigin="anonymous"></script>
 
 
-    <link rel="stylesheet" href="<?=$templateUriA?>/css/main.css">
-    <script src="<?=$templateUriA?>/js/jquery.selectric.js"></script>
-    <script src="<?=$templateUriA?>/js/bootstrap-formhelpers.min.js"></script>
-    <link rel="shortcut icon" href="<?=$templateUriA?>/img/logo_fav.ico" type="image/x-icon">
+    <link rel="stylesheet" href="<?=$templateUriAssets?>/css/main.css">
+    <script src="<?=$templateUriAssets?>/js/jquery.selectric.js"></script>
+    <script src="<?=$templateUriAssets?>/js/bootstrap-formhelpers.min.js"></script>
+    <link rel="shortcut icon" href="<?=$templateUriAssets?>/img/logo_fav.ico" type="image/x-icon">
 
 </head>
 <body>
@@ -29,7 +29,7 @@
         <div class="row top-line">
             <div class="col-4 col-md-5 col-lg-6">
                 <div class="logo">
-                    <a href="#"><img src="<?=$templateUriA?>/img/logo-green.png" alt="WeDo"></a>
+                    <a href="#"><img src="<?=$templateUriAssets?>/img/logo-green.png" alt="WeDo"></a>
                 </div>
             </div>
             <div class="col-6 col-md-6 col-lg-5">
@@ -97,23 +97,23 @@
         <div class="row content-section">
             <div class="col-lg-4">
                 <div class="wrap-block">
-                    <img src="<?=$templateUriA?>/img/icons/insta-like1.png" alt="like">
+                    <img src="<?=$templateUriAssets?>/img/icons/insta-like1.png" alt="like">
                     <p>Работающим сфере b2c, то есть предлагающим товары конечному потребителю для удовлетворения его собственных потребностей, а не для дальнейшей перепродажи.</p>
-                    <img src="<?=$templateUriA?>/img/icons/insta-icon1.png" alt="">
+                    <img src="<?=$templateUriAssets?>/img/icons/insta-icon1.png" alt="">
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="wrap-block">
-                    <img src="<?=$templateUriA?>/img/icons/insta-like2.png" alt="like">
+                    <img src="<?=$templateUriAssets?>/img/icons/insta-like2.png" alt="like">
                     <p>Продающим товары лёгкого спроса (косметика, одежда, мелкая техника, гаджеты, товары для дома, детские товары и т.д.)</p>
-                    <img src="<?=$templateUriA?>/img/icons/insta-icon1.png" alt="">
+                    <img src="<?=$templateUriAssets?>/img/icons/insta-icon1.png" alt="">
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="wrap-block">
-                    <img src="<?=$templateUriA?>/img/icons/insta-like3.png" alt="like">
+                    <img src="<?=$templateUriAssets?>/img/icons/insta-like3.png" alt="like">
                     <p>Предлагающим нишевые услуги в сфере образования (курсы, тренинги, школы раннего развития, скорочтения и т.д.), красоты (косметология, пластическая хирургия, спа, салонные услуги и т.д.), здоровья (диагностика, лечение заболеваний, стоматология и т.д.), спорта (фитнес клубы, тренера и т.д.)</p>
-                    <img src="<?=$templateUriA?>/img/icons/insta-icon1.png" alt="">
+                    <img src="<?=$templateUriAssets?>/img/icons/insta-icon1.png" alt="">
                 </div>
             </div>
         </div>
@@ -128,7 +128,7 @@
             <div class="col-lg-4">
                 <div class="wrap-block">
                     <div class="img">
-                        <img src="<?=$templateUriA?>/img/icons/ukraine-icon.png" alt="ukraine">
+                        <img src="<?=$templateUriAssets?>/img/icons/ukraine-icon.png" alt="ukraine">
                     </div>
                     <p class="title-block">Широкий охват</p>
                     <p class="descr">Аудитория Facebook в Украине на 2018 год составляет 11 млн пользователей, а Instagram – перевалила за 6 млн. И это всё потенциальные потребители товаров и услуг.</p>
@@ -137,7 +137,7 @@
             <div class="col-lg-4">
                 <div class="wrap-block">
                     <div class="img">
-                        <img src="<?=$templateUriA?>/img/icons/target-icon.png" alt="target">
+                        <img src="<?=$templateUriAssets?>/img/icons/target-icon.png" alt="target">
                     </div>
                     <p class="title-block">Точность настройки рекламы</p>
                     <p class="descr">Выбор целевой аудитории для рекламы позволяет учесть даже такие факторы, как пол, возраст, религия, семейное положение, профессия, доход, образование, интересы и т.д. Реклама будет показана только тем, кому она действительно интересна.</p>
@@ -146,7 +146,7 @@
             <div class="col-lg-4">
                 <div class="wrap-block">
                     <div class="img">
-                        <img src="<?=$templateUriA?>/img/icons/advertising1-icon.png" alt="advertising">
+                        <img src="<?=$templateUriAssets?>/img/icons/advertising1-icon.png" alt="advertising">
                     </div>
                     <p class="title-block">Множество вариаций объявлений</p>
                     <p class="descr">Карусели, мультиформаты, банеры – всё, что позволит привлечь внимание покупателя.</p>
@@ -268,19 +268,19 @@
         <div class="row content-section">
             <div class="col-md-4 col-lg-4">
                 <div class="wrap-block">
-                    <img src="<?=$templateUriA?>/img/icons/tick-box-green.png" alt="done">
+                    <img src="<?=$templateUriAssets?>/img/icons/tick-box-green.png" alt="done">
                     <p>Работаем по техническому заданию и договору</p>
                 </div>
             </div>
             <div class="col-md-4 col-lg-4">
                 <div class="wrap-block">
-                    <img src="<?=$templateUriA?>/img/icons/tick-box-green.png" alt="done">
+                    <img src="<?=$templateUriAssets?>/img/icons/tick-box-green.png" alt="done">
                     <p>Согласовываем с вами все шаги и предложения</p>
                 </div>
             </div>
             <div class="col-md-4 col-lg-4">
                 <div class="wrap-block">
-                    <img src="<?=$templateUriA?>/img/icons/tick-box-green.png" alt="done">
+                    <img src="<?=$templateUriAssets?>/img/icons/tick-box-green.png" alt="done">
                     <p>Предоставляем полную детализацию расходов</p>
                 </div>
             </div>
@@ -317,48 +317,48 @@
                 </tr>
                 <tr>
                     <th class="t-col1" scope="row">Выбор целевой аудитории, разбивка её на группы</th>
-                    <td class="t-col2"><img src="<?=$templateUriA?>/img/icons/check_green.png" alt="yes"></td>
-                    <td class="t-col3"><img src="<?=$templateUriA?>/img/icons/check_green.png" alt="yes"></td>
+                    <td class="t-col2"><img src="<?=$templateUriAssets?>/img/icons/check_green.png" alt="yes"></td>
+                    <td class="t-col3"><img src="<?=$templateUriAssets?>/img/icons/check_green.png" alt="yes"></td>
                 </tr>
                 <tr>
                     <th class="t-col1" scope="row">Разработка стратегии</th>
-                    <td class="t-col2"><img src="<?=$templateUriA?>/img/icons/close_gray.png" alt="no"></td>
-                    <td class="t-col3"><img src="<?=$templateUriA?>/img/icons/check_green.png" alt="yes"></td>
+                    <td class="t-col2"><img src="<?=$templateUriAssets?>/img/icons/close_gray.png" alt="no"></td>
+                    <td class="t-col3"><img src="<?=$templateUriAssets?>/img/icons/check_green.png" alt="yes"></td>
                 </tr>
                 <tr>
                     <th class="t-col1" scope="row">Создание группы или бизнес-страницы с оптимизированным контентом</th>
-                    <td class="t-col2"><img src="<?=$templateUriA?>/img/icons/close_gray.png" alt="no"></td>
-                    <td class="t-col3"><img src="<?=$templateUriA?>/img/icons/check_green.png" alt="yes"></td>
+                    <td class="t-col2"><img src="<?=$templateUriAssets?>/img/icons/close_gray.png" alt="no"></td>
+                    <td class="t-col3"><img src="<?=$templateUriAssets?>/img/icons/check_green.png" alt="yes"></td>
                 </tr>
                 <tr>
                     <th class="t-col1" scope="row">Разработка контент-плана</th>
-                    <td class="t-col2"><img src="<?=$templateUriA?>/img/icons/close_gray.png" alt="no"></td>
-                    <td class="t-col3"><img src="<?=$templateUriA?>/img/icons/check_green.png" alt="yes"></td>
+                    <td class="t-col2"><img src="<?=$templateUriAssets?>/img/icons/close_gray.png" alt="no"></td>
+                    <td class="t-col3"><img src="<?=$templateUriAssets?>/img/icons/check_green.png" alt="yes"></td>
                 </tr>
                 <tr>
                     <th class="t-col1" scope="row">Отложенный постинг</th>
-                    <td class="t-col2"><img src="<?=$templateUriA?>/img/icons/close_gray.png" alt="no"></td>
-                    <td class="t-col3"><img src="<?=$templateUriA?>/img/icons/check_green.png" alt="yes"></td>
+                    <td class="t-col2"><img src="<?=$templateUriAssets?>/img/icons/close_gray.png" alt="no"></td>
+                    <td class="t-col3"><img src="<?=$templateUriAssets?>/img/icons/check_green.png" alt="yes"></td>
                 </tr>
                 <tr>
                     <th class="t-col1" scope="row">Массфоллоу и масслайкинг для Instagram</th>
-                    <td class="t-col2"><img src="<?=$templateUriA?>/img/icons/check_green.png" alt="yes"></td>
-                    <td class="t-col3"><img src="<?=$templateUriA?>/img/icons/check_green.png" alt="yes"></td>
+                    <td class="t-col2"><img src="<?=$templateUriAssets?>/img/icons/check_green.png" alt="yes"></td>
+                    <td class="t-col3"><img src="<?=$templateUriAssets?>/img/icons/check_green.png" alt="yes"></td>
                 </tr>
                 <tr>
                     <th class="t-col1" scope="row">Разработка рекламной кампании (4 объявления)</th>
-                    <td class="t-col2"><img src="<?=$templateUriA?>/img/icons/check_green.png" alt="yes"></td>
-                    <td class="t-col3"><img src="<?=$templateUriA?>/img/icons/check_green.png" alt="yes"></td>
+                    <td class="t-col2"><img src="<?=$templateUriAssets?>/img/icons/check_green.png" alt="yes"></td>
+                    <td class="t-col3"><img src="<?=$templateUriAssets?>/img/icons/check_green.png" alt="yes"></td>
                 </tr>
                 <tr>
                     <th class="t-col1" scope="row">Настройка рекламной кампании и её ведение</th>
-                    <td class="t-col2"><img src="<?=$templateUriA?>/img/icons/check_green.png" alt="yes"></td>
-                    <td class="t-col3"><img src="<?=$templateUriA?>/img/icons/check_green.png" alt="yes"></td>
+                    <td class="t-col2"><img src="<?=$templateUriAssets?>/img/icons/check_green.png" alt="yes"></td>
+                    <td class="t-col3"><img src="<?=$templateUriAssets?>/img/icons/check_green.png" alt="yes"></td>
                 </tr>
                 <tr>
                     <th class="t-col1" scope="row">Отчёт в конце месяца по активности рекламы и аккаунта</th>
-                    <td class="t-col2"><img src="<?=$templateUriA?>/img/icons/check_green.png" alt="yes"></td>
-                    <td class="t-col3"><img src="<?=$templateUriA?>/img/icons/check_green.png" alt="yes"></td>
+                    <td class="t-col2"><img src="<?=$templateUriAssets?>/img/icons/check_green.png" alt="yes"></td>
+                    <td class="t-col3"><img src="<?=$templateUriAssets?>/img/icons/check_green.png" alt="yes"></td>
                 </tr>
                 <tr>
                     <th class="t-col1" scope="row">Стоимость</th>
@@ -366,7 +366,7 @@
                     <td class="t-col3">6000 грн. ежемесячно</td>
                 </tr>
                 <tr>
-                    <th class="t-col1" scope="row"><img src="<?=$templateUriA?>/img/icons/gift.png" alt="Gift">Ваши подарки</th>
+                    <th class="t-col1" scope="row"><img src="<?=$templateUriAssets?>/img/icons/gift.png" alt="Gift">Ваши подарки</th>
                     <td class="t-col2">Бесплатный мини-аудит аккаунта с рекомендациями по улучшению и оптимизации</td>
                     <td class="t-col3">Скидка 10% на создание контекстной рекламы </td>
                 </tr>
@@ -439,7 +439,7 @@
 
 <div class="call-back-kr">
     <a href="#" ontouchstart="" data-toggle="modal" data-target="#modal-callback-kr">
-        <img src="<?=$templateUriA?>/img/icons/shake-phone.png" alt="Phone">
+        <img src="<?=$templateUriAssets?>/img/icons/shake-phone.png" alt="Phone">
         <div class="overlay">
             <div class="text">Обратный звонок</div>
         </div>
@@ -451,7 +451,7 @@
         <div class="row items justify-content-center align-items-center no-gutters">
             <div class="col-12 col-md-12 col-xl-12 item justify-content-center align-items-center">
                 <div class="logo-footer">
-                    <a href=""><img src="<?=$templateUriA?>/img/logo-green.png" alt="WeDo"></a>
+                    <a href=""><img src="<?=$templateUriAssets?>/img/logo-green.png" alt="WeDo"></a>
                     <div class="footer-phone">
                         <a href="tel:+38(098)151-20-15">+38(098)151-20-15</a>
                     </div>
@@ -470,7 +470,7 @@
                 <div class="row justify-content-end">
                     <div class="col-2 justify-content-end">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <img src="<?=$templateUriA?>/img/icons/close(black).png" alt="close">
+                            <img src="<?=$templateUriAssets?>/img/icons/close(black).png" alt="close">
                         </button>
                     </div>
                 </div>
@@ -521,7 +521,7 @@
                 <div class="row justify-content-end">
                     <div class="col-2 justify-content-end">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <img src="<?=$templateUriA?>/img/icons/close(black).png" alt="close">
+                            <img src="<?=$templateUriAssets?>/img/icons/close(black).png" alt="close">
                         </button>
                     </div>
                 </div>
@@ -546,7 +546,7 @@
                 <div class="row justify-content-end">
                     <div class="col-2 justify-content-end">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <img src="<?=$templateUriA?>/img/icons/close(black).png" alt="close">
+                            <img src="<?=$templateUriAssets?>/img/icons/close(black).png" alt="close">
                         </button>
                     </div>
                 </div>
@@ -601,7 +601,7 @@
                 <div class="row justify-content-end">
                     <div class="col-2 justify-content-end">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <img src="<?=$templateUriA?>/img/icons/close(black).png" alt="close">
+                            <img src="<?=$templateUriAssets?>/img/icons/close(black).png" alt="close">
                         </button>
                     </div>
                 </div>
@@ -646,7 +646,7 @@
                 <div class="row justify-content-end">
                     <div class="col-2 justify-content-end">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <img src="<?=$templateUriA?>/img/icons/close(black).png" alt="close">
+                            <img src="<?=$templateUriAssets?>/img/icons/close(black).png" alt="close">
                         </button>
                     </div>
                 </div>
@@ -692,10 +692,10 @@
 
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="<?=$templateUriA?>/js/owl.carousel.min.js"></script>
-<script src="<?=$templateUriA?>/js/config.js"></script>
-<script src="<?=$templateUriA?>/js/waypoints.min.js"></script>
-<script src="<?=$templateUriA?>/js/animate-css.js"></script>
-<script src="<?=$templateUriA?>/js/main.js"></script>
+<script src="<?=$templateUriAssets?>/js/owl.carousel.min.js"></script>
+<script src="<?=$templateUriAssets?>/js/config.js"></script>
+<script src="<?=$templateUriAssets?>/js/waypoints.min.js"></script>
+<script src="<?=$templateUriAssets?>/js/animate-css.js"></script>
+<script src="<?=$templateUriAssets?>/js/main.js"></script>
 </body>
 </html>

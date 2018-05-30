@@ -16,10 +16,10 @@
             crossorigin="anonymous"></script>
 
 
-    <link rel="stylesheet" href="<?=$templateUriA?>/css/main.css">
-    <script src="<?=$templateUriA?>/js/jquery.selectric.js"></script>
-    <script src="<?=$templateUriA?>/js/bootstrap-formhelpers.min.js"></script>
-    <link rel="shortcut icon" href="<?=$templateUriA?>/img/logo_fav.ico" type="image/x-icon">
+    <link rel="stylesheet" href="<?=$templateUriAssets?>/css/main.css">
+    <script src="<?=$templateUriAssets?>/js/jquery.selectric.js"></script>
+    <script src="<?=$templateUriAssets?>/js/bootstrap-formhelpers.min.js"></script>
+    <link rel="shortcut icon" href="<?=$templateUriAssets?>/img/logo_fav.ico" type="image/x-icon">
 
 </head>
 <body>
@@ -29,7 +29,7 @@
         <div class="row top-line">
             <div class="col-4 col-md-5 col-lg-6">
                 <div class="logo">
-                    <a href="#"><img src="<?=$templateUriA?>/img/logo-green.png" alt="WeDo"></a>
+                    <a href="#"><img src="<?=$templateUriAssets?>/img/logo-green.png" alt="WeDo"></a>
                 </div>
             </div>
             <div class="col-6 col-md-6 col-lg-5">
@@ -109,7 +109,7 @@
             </div>
             <div class="col-md-5 col-lg-6">
                 <div class="image">
-                    <img src="<?=$templateUriA?>/img/notebook-seo.png" alt="img">
+                    <img src="<?=$templateUriAssets?>/img/notebook-seo.png" alt="img">
                 </div>
             </div>
         </div>
@@ -123,41 +123,41 @@
         <div class="row items">
             <div class="col-lg-5">
                 <div class="item">
-                    <img class="icon" src="<?=$templateUriA?>/img/icons/check-circle-green.png" alt="check">
+                    <img class="icon" src="<?=$templateUriAssets?>/img/icons/check-circle-green.png" alt="check">
                     <p class="text">Подробный аудит и детальный анализ сайта</p>
                 </div>
                 <div class="item">
-                    <img class="icon" src="<?=$templateUriA?>/img/icons/check-circle-green.png" alt="check">
+                    <img class="icon" src="<?=$templateUriAssets?>/img/icons/check-circle-green.png" alt="check">
                     <p class="text">Работа с ключевыми запросами и составление семантической карты сайта</p>
                 </div>
                 <div class="item">
-                    <img class="icon" src="<?=$templateUriA?>/img/icons/check-circle-green.png" alt="check">
+                    <img class="icon" src="<?=$templateUriAssets?>/img/icons/check-circle-green.png" alt="check">
                     <p class="text">Формирование мета-тегов, которые помогут поисковым системам правильно индексировать страницы</p>
                 </div>
                 <div class="item">
-                    <img class="icon" src="<?=$templateUriA?>/img/icons/check-circle-green.png" alt="check">
+                    <img class="icon" src="<?=$templateUriAssets?>/img/icons/check-circle-green.png" alt="check">
                     <p class="text">Техническая оптимизация страниц сайта (устранение ошибок в коде, дублей страниц, ошибок 404, настройка правильных редиректов и т.д.)</p>
                 </div>
             </div>
             <div class="col-lg-5 offset-lg-2">
                 <div class="item">
-                    <img class="icon" src="<?=$templateUriA?>/img/icons/check-circle-green.png" alt="check">
+                    <img class="icon" src="<?=$templateUriAssets?>/img/icons/check-circle-green.png" alt="check">
                     <p class="text">Ускорение загрузки страниц сайта</p>
                 </div>
                 <div class="item">
-                    <img class="icon" src="<?=$templateUriA?>/img/icons/check-circle-green.png" alt="check">
+                    <img class="icon" src="<?=$templateUriAssets?>/img/icons/check-circle-green.png" alt="check">
                     <p class="text">Настройка вебмастеров, файла robots и sitemap</p>
                 </div>
                 <div class="item">
-                    <img class="icon" src="<?=$templateUriA?>/img/icons/check-circle-green.png" alt="check">
+                    <img class="icon" src="<?=$templateUriAssets?>/img/icons/check-circle-green.png" alt="check">
                     <p class="text">Настройка аналитики и целей для конверсии</p>
                 </div>
                 <div class="item">
-                    <img class="icon" src="<?=$templateUriA?>/img/icons/check-circle-green.png" alt="check">
+                    <img class="icon" src="<?=$templateUriAssets?>/img/icons/check-circle-green.png" alt="check">
                     <p class="text">Переезд на безопасный протокол https, который является требованием Google</p>
                 </div>
                 <div class="item">
-                    <img class="icon" src="<?=$templateUriA?>/img/icons/check-circle-green.png" alt="check">
+                    <img class="icon" src="<?=$templateUriAssets?>/img/icons/check-circle-green.png" alt="check">
                     <p class="text">Контент-маркетинг</p>
                 </div>
             </div>
@@ -172,31 +172,31 @@
         <div class="row tiles">
             <div class="col-12 col-sm-6 col-md col-lg">
                 <div class="tile">
-                    <img class="icon" src="<?=$templateUriA?>/img/icons/increase-seo.png" alt="SEO">
+                    <img class="icon" src="<?=$templateUriAssets?>/img/icons/increase-seo.png" alt="SEO">
                     <p class="text">Только белые методы <br>продвижения сайтов</p>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md col-lg">
                 <div class="tile">
-                    <img class="icon" src="<?=$templateUriA?>/img/icons/external-link-seo.png" alt="SEO">
+                    <img class="icon" src="<?=$templateUriAssets?>/img/icons/external-link-seo.png" alt="SEO">
                     <p class="text">Без покупки <br>ссылок</p>
                 </div>
             </div>
             <div class="col-12 col-sm-12 col-md col-lg">
                 <div class="tile">
-                    <img class="icon" src="<?=$templateUriA?>/img/icons/group-seo.png" alt="SEO">
+                    <img class="icon" src="<?=$templateUriAssets?>/img/icons/group-seo.png" alt="SEO">
                     <p class="text">Минимум 4 специалиста <br>для работы над проектом</p>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md col-lg">
                 <div class="tile">
-                    <img class="icon" src="<?=$templateUriA?>/img/icons/bank-seo.png" alt="SEO">
+                    <img class="icon" src="<?=$templateUriAssets?>/img/icons/bank-seo.png" alt="SEO">
                     <p class="text">Оплата за перечень <br>работ, а не почасовая</p>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md col-lg">
                 <div class="tile">
-                    <img class="icon" src="<?=$templateUriA?>/img/icons/report-card-seo.png" alt="SEO">
+                    <img class="icon" src="<?=$templateUriAssets?>/img/icons/report-card-seo.png" alt="SEO">
                     <p class="text">Отчёт о <br>работе</p>
                 </div>
             </div>
@@ -252,7 +252,7 @@
                     <div class="col-lg-4">
                         <div class="wrap-chart">
                             <div class="img-chart">
-                                <img src="<?=$templateUriA?>/img/chart/rabotenko-chart-1.png" alt="chart1">
+                                <img src="<?=$templateUriAssets?>/img/chart/rabotenko-chart-1.png" alt="chart1">
                             </div>
                             <div class="text-chart">
                                 <p class="title-ch">Время на сайте</p>
@@ -263,7 +263,7 @@
                     <div class="col-lg-4">
                         <div class="wrap-chart">
                             <div class="img-chart">
-                                <img src="<?=$templateUriA?>/img/chart/rabotenko-chart-2.png" alt="chart1">
+                                <img src="<?=$templateUriAssets?>/img/chart/rabotenko-chart-2.png" alt="chart1">
                             </div>
                             <div class="text-chart">
                                 <p class="title-ch">Отказы</p>
@@ -274,7 +274,7 @@
                     <div class="col-lg-4">
                         <div class="wrap-chart">
                             <div class="img-chart">
-                                <img src="<?=$templateUriA?>/img/chart/rabotenko-chart-3.png" alt="chart1">
+                                <img src="<?=$templateUriAssets?>/img/chart/rabotenko-chart-3.png" alt="chart1">
                             </div>
                             <div class="text-chart">
                                 <p class="title-ch">Посещаемость</p>
@@ -288,7 +288,7 @@
                         <div class="owl-carousel chart-slider1">
                             <div class="wrap-chart">
                                 <div class="img-chart">
-                                    <img src="<?=$templateUriA?>/img/chart/rabotenko-chart-3.png" alt="chart1">
+                                    <img src="<?=$templateUriAssets?>/img/chart/rabotenko-chart-3.png" alt="chart1">
                                 </div>
                                 <div class="text-chart">
                                     <p class="title-ch">Посещаемость</p>
@@ -297,7 +297,7 @@
                             </div>
                             <div class="wrap-chart">
                                 <div class="img-chart">
-                                    <img src="<?=$templateUriA?>/img/chart/rabotenko-chart-2.png" alt="chart1">
+                                    <img src="<?=$templateUriAssets?>/img/chart/rabotenko-chart-2.png" alt="chart1">
                                 </div>
                                 <div class="text-chart">
                                     <p class="title-ch">Отказы</p>
@@ -306,7 +306,7 @@
                             </div>
                             <div class="wrap-chart">
                                 <div class="img-chart">
-                                    <img src="<?=$templateUriA?>/img/chart/rabotenko-chart-1.png" alt="chart1">
+                                    <img src="<?=$templateUriAssets?>/img/chart/rabotenko-chart-1.png" alt="chart1">
                                 </div>
                                 <div class="text-chart">
                                     <p class="title-ch">Время на сайте</p>
@@ -357,7 +357,7 @@
                     <div class="col-lg-4">
                         <div class="wrap-chart">
                             <div class="img-chart">
-                                <img src="<?=$templateUriA?>/img/chart/vidnova-chart-1.png" alt="chart1">
+                                <img src="<?=$templateUriAssets?>/img/chart/vidnova-chart-1.png" alt="chart1">
                             </div>
                             <div class="text-chart">
                                 <p class="title-ch">Санкции</p>
@@ -368,7 +368,7 @@
                     <div class="col-lg-4">
                         <div class="wrap-chart">
                             <div class="img-chart">
-                                <img src="<?=$templateUriA?>/img/chart/vidnova-chart-2.png" alt="chart1">
+                                <img src="<?=$templateUriAssets?>/img/chart/vidnova-chart-2.png" alt="chart1">
                             </div>
                             <div class="text-chart">
                                 <p class="title-ch">Посещаемость</p>
@@ -379,7 +379,7 @@
                     <div class="col-lg-4">
                         <div class="wrap-chart">
                             <div class="img-chart">
-                                <img src="<?=$templateUriA?>/img/chart/vidnova-chart-3.png" alt="chart1">
+                                <img src="<?=$templateUriAssets?>/img/chart/vidnova-chart-3.png" alt="chart1">
                             </div>
                             <div class="text-chart">
                                 <p class="title-ch">Отказы</p>
@@ -393,7 +393,7 @@
                         <div class="owl-carousel chart-slider2">
                             <div class="wrap-chart">
                                 <div class="img-chart">
-                                    <img src="<?=$templateUriA?>/img/chart/vidnova-chart-2.png" alt="chart1">
+                                    <img src="<?=$templateUriAssets?>/img/chart/vidnova-chart-2.png" alt="chart1">
                                 </div>
                                 <div class="text-chart">
                                     <p class="title-ch">Посещаемость</p>
@@ -402,7 +402,7 @@
                             </div>
                             <div class="wrap-chart">
                                 <div class="img-chart">
-                                    <img src="<?=$templateUriA?>/img/chart/vidnova-chart-3.png" alt="chart1">
+                                    <img src="<?=$templateUriAssets?>/img/chart/vidnova-chart-3.png" alt="chart1">
                                 </div>
                                 <div class="text-chart">
                                     <p class="title-ch">Отказы</p>
@@ -411,7 +411,7 @@
                             </div>
                             <div class="wrap-chart">
                                 <div class="img-chart">
-                                    <img src="<?=$templateUriA?>/img/chart/vidnova-chart-1.png" alt="chart1">
+                                    <img src="<?=$templateUriAssets?>/img/chart/vidnova-chart-1.png" alt="chart1">
                                 </div>
                                 <div class="text-chart">
                                     <p class="title-ch">Санкции</p>
@@ -453,7 +453,7 @@
             <div class="col-lg-4">
                 <div class="item">
                     <div class="img-item">
-                        <img src="<?=$templateUriA?>/img/icons/check-circle-green.png" alt="check">
+                        <img src="<?=$templateUriAssets?>/img/icons/check-circle-green.png" alt="check">
                     </div>
                     <div class="text-item">
                         <p>Делаем копию сайта, на котором вносим все изменения, проверяем и тестируем работу, а лишь затем переносим всё на рабочий сайт</p>
@@ -463,7 +463,7 @@
             <div class="col-lg-4">
                 <div class="item">
                     <div class="img-item">
-                        <img src="<?=$templateUriA?>/img/icons/check-circle-green.png" alt="check">
+                        <img src="<?=$templateUriAssets?>/img/icons/check-circle-green.png" alt="check">
                     </div>
                     <div class="text-item">
                         <p>Предоставляем отчёт о выполнении каждого этапа работ</p>
@@ -473,7 +473,7 @@
             <div class="col-lg-4">
                 <div class="item">
                     <div class="img-item">
-                        <img src="<?=$templateUriA?>/img/icons/check-circle-green.png" alt="check">
+                        <img src="<?=$templateUriAssets?>/img/icons/check-circle-green.png" alt="check">
                     </div>
                     <div class="text-item">
                         <p>Заключаем договор и работаем по техническому заданию, в котором определены все объёмы работ, их стоимость и сроки</p>
@@ -532,7 +532,7 @@
         <div class="row wrap-when-result">
             <div class="col-lg-5">
                 <div class="img-when-result">
-                    <img src="<?=$templateUriA?>/img/rocket-seo.png" alt="rocket-seo">
+                    <img src="<?=$templateUriAssets?>/img/rocket-seo.png" alt="rocket-seo">
                 </div>
             </div>
             <div class="col-lg-7">
@@ -607,7 +607,7 @@
 
 <div class="call-back-kr">
     <a href="#" ontouchstart="" data-toggle="modal" data-target="#modal-callback-kr">
-        <img src="<?=$templateUriA?>/img/icons/shake-phone.png" alt="Phone">
+        <img src="<?=$templateUriAssets?>/img/icons/shake-phone.png" alt="Phone">
         <div class="overlay">
             <div class="text">Обратный звонок</div>
         </div>
@@ -619,7 +619,7 @@
         <div class="row items justify-content-center align-items-center no-gutters">
             <div class="col-12 col-md-12 col-xl-12 item justify-content-center align-items-center">
                 <div class="logo-footer">
-                    <a href=""><img src="<?=$templateUriA?>/img/logo-green.png" alt="WeDo"></a>
+                    <a href=""><img src="<?=$templateUriAssets?>/img/logo-green.png" alt="WeDo"></a>
                     <div class="footer-phone">
                         <a href="tel:+38(098)151-20-15">+38(098)151-20-15</a>
                     </div>
@@ -638,7 +638,7 @@
                 <div class="row justify-content-end">
                     <div class="col-2 justify-content-end">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <img src="<?=$templateUriA?>/img/icons/close(black).png" alt="close">
+                            <img src="<?=$templateUriAssets?>/img/icons/close(black).png" alt="close">
                         </button>
                     </div>
                 </div>
@@ -689,7 +689,7 @@
                 <div class="row justify-content-end">
                     <div class="col-2 justify-content-end">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <img src="<?=$templateUriA?>/img/icons/close(black).png" alt="close">
+                            <img src="<?=$templateUriAssets?>/img/icons/close(black).png" alt="close">
                         </button>
                     </div>
                 </div>
@@ -714,7 +714,7 @@
                 <div class="row justify-content-end">
                     <div class="col-2 justify-content-end">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <img src="<?=$templateUriA?>/img/icons/close(black).png" alt="close">
+                            <img src="<?=$templateUriAssets?>/img/icons/close(black).png" alt="close">
                         </button>
                     </div>
                 </div>
@@ -764,7 +764,7 @@
                 <div class="row justify-content-end">
                     <div class="col-2 justify-content-end">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <img src="<?=$templateUriA?>/img/icons/close(black).png" alt="close">
+                            <img src="<?=$templateUriAssets?>/img/icons/close(black).png" alt="close">
                         </button>
                     </div>
                 </div>
@@ -819,7 +819,7 @@
                 <div class="row justify-content-end">
                     <div class="col-2 justify-content-end">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <img src="<?=$templateUriA?>/img/icons/close(black).png" alt="close">
+                            <img src="<?=$templateUriAssets?>/img/icons/close(black).png" alt="close">
                         </button>
                     </div>
                 </div>
@@ -874,7 +874,7 @@
                 <div class="row justify-content-end">
                     <div class="col-2 justify-content-end">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <img src="<?=$templateUriA?>/img/icons/close(black).png" alt="close">
+                            <img src="<?=$templateUriAssets?>/img/icons/close(black).png" alt="close">
                         </button>
                     </div>
                 </div>
@@ -920,10 +920,10 @@
 
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="<?=$templateUriA?>/js/owl.carousel.min.js"></script>
-<script src="<?=$templateUriA?>/js/config.js"></script>
-<script src="<?=$templateUriA?>/js/waypoints.min.js"></script>
-<script src="<?=$templateUriA?>/js/animate-css.js"></script>
-<script src="<?=$templateUriA?>/js/main.js"></script>
+<script src="<?=$templateUriAssets?>/js/owl.carousel.min.js"></script>
+<script src="<?=$templateUriAssets?>/js/config.js"></script>
+<script src="<?=$templateUriAssets?>/js/waypoints.min.js"></script>
+<script src="<?=$templateUriAssets?>/js/animate-css.js"></script>
+<script src="<?=$templateUriAssets?>/js/main.js"></script>
 </body>
 </html>

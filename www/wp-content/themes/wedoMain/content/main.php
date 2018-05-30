@@ -14,10 +14,10 @@
     
 		
 	
-    <link rel="stylesheet" href="<?=$templateUriA?>/css/main.css">
-	<script src="<?=$templateUriA?>/js/jquery.selectric.js"></script>
-	<script src="<?=$templateUriA?>/js/bootstrap-formhelpers.min.js"></script>
-	<link rel="shortcut icon" href="<?=$templateUriA?>/img/logo_fav.ico" type="image/x-icon">
+    <link rel="stylesheet" href="<?=$templateUriAssets?>/css/main.css">
+	<script src="<?=$templateUriAssets?>/js/jquery.selectric.js"></script>
+	<script src="<?=$templateUriAssets?>/js/bootstrap-formhelpers.min.js"></script>
+	<link rel="shortcut icon" href="<?=$templateUriAssets?>/img/logo_fav.ico" type="image/x-icon">
 
 </head>
 	<body>
@@ -29,7 +29,7 @@
 			<div class="row top-line align-items-center">
 					<div class="col-4 col-md-5 col-lg-6 item">
 						<div class="logo">
-							<a href=""><img src="<?=$templateUriA?>/img/logoWedo.png" alt="WeDo"></a>
+							<a href=""><img src="<?=$templateUriAssets?>/img/logoWedo.png" alt="WeDo"></a>
 						</div>
 					</div>
 					<div class="col-6 col-md-6 col-lg-5 item">
@@ -229,7 +229,7 @@
 				</div>
 				<div class="col-12 col-md-4 col-xl-6 item">
 					<div class="logo-footer">
-						<a href=""><img src="<?=$templateUriA?>/img/logoWedo.png" alt="WeDo"></a>
+						<a href=""><img src="<?=$templateUriAssets?>/img/logoWedo.png" alt="WeDo"></a>
 						<p>© Copyright 2018, Все права защищены</p>
 					</div>
 				</div>
@@ -254,7 +254,7 @@
 				<div class="row justify-content-end">
 					<div class="col-2 justify-content-end">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							<img src="<?=$templateUriA?>/img/close.png" alt="">
+							<img src="<?=$templateUriAssets?>/img/close.png" alt="">
 						</button>
 					</div>
 				</div>
@@ -347,11 +347,11 @@
 	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-	<script src="<?=$templateUriA?>/js/owl.carousel.min.js"></script>
-	<script src="<?=$templateUriA?>/js/config.js"></script>
-	<script src="<?=$templateUriA?>/js/waypoints.min.js"></script>
-	<script src="<?=$templateUriA?>/js/animate-css.js"></script>
-	<script src="<?=$templateUriA?>/js/main.js"></script>
+	<script src="<?=$templateUriAssets?>/js/owl.carousel.min.js"></script>
+	<script src="<?=$templateUriAssets?>/js/config.js"></script>
+	<script src="<?=$templateUriAssets?>/js/waypoints.min.js"></script>
+	<script src="<?=$templateUriAssets?>/js/animate-css.js"></script>
+	<script src="<?=$templateUriAssets?>/js/main.js"></script>
 	<!--<script src="js/bootstrap-formhelpers.min.js"></script>-->
 	</body>
 </html>

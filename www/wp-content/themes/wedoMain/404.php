@@ -1,6 +1,6 @@
 <? 
 $templateUri = get_template_directory_uri();
-$templateUriA = $templateUri."/assets";
+$templateUriAssets = $templateUri."/assets";
 ?>
 <!doctype html>
 <html lang="ru">
@@ -20,10 +20,10 @@ $templateUriA = $templateUri."/assets";
             crossorigin="anonymous"></script>
 
 
-    <link rel="stylesheet" href="<?=$templateUriA?>/css/main.css">
-    <script src="<?=$templateUriA?>/js/jquery.selectric.js"></script>
-    <script src="<?=$templateUriA?>/js/bootstrap-formhelpers.min.js"></script>
-    <link rel="shortcut icon" href="<?=$templateUriA?>/img/logo_fav.ico" type="image/x-icon">
+    <link rel="stylesheet" href="<?=$templateUriAssets?>/css/main.css">
+    <script src="<?=$templateUriAssets?>/js/jquery.selectric.js"></script>
+    <script src="<?=$templateUriAssets?>/js/bootstrap-formhelpers.min.js"></script>
+    <link rel="shortcut icon" href="<?=$templateUriAssets?>/img/logo_fav.ico" type="image/x-icon">
 
 </head>
 <body>
@@ -33,7 +33,7 @@ $templateUriA = $templateUri."/assets";
         <div class="row top-line">
             <div class="col-4 col-md-5 col-lg-6">
                 <div class="logo">
-                    <a href="/"><img src="<?=$templateUriA?>/img/logoWedo.png" alt="WeDo"></a>
+                    <a href="/"><img src="<?=$templateUriAssets?>/img/logoWedo.png" alt="WeDo"></a>
                 </div>
             </div>
             <div class="col-6 col-md-6 col-lg-5">
@@ -69,7 +69,7 @@ $templateUriA = $templateUri."/assets";
         </div>
         <div class="row center-line">
             <div class="wrap-image-bg">
-                <img src="<?=$templateUriA?>/img/macbook-min.png" class="img-fluid d-none d-md-block">
+                <img src="<?=$templateUriAssets?>/img/macbook-min.png" class="img-fluid d-none d-md-block">
             </div>
             <div class="wrap-text">
                 <p class="title_404">404</p>
@@ -95,10 +95,10 @@ $templateUriA = $templateUri."/assets";
 </div>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="<?=$templateUriA?>/js/owl.carousel.min.js"></script>
-<script src="<?=$templateUriA?>/js/config.js"></script>
-<script src="<?=$templateUriA?>/js/waypoints.min.js"></script>
-<script src="<?=$templateUriA?>/js/animate-css.js"></script>
-<script src="<?=$templateUriA?>/js/main.js"></script>
+<script src="<?=$templateUriAssets?>/js/owl.carousel.min.js"></script>
+<script src="<?=$templateUriAssets?>/js/config.js"></script>
+<script src="<?=$templateUriAssets?>/js/waypoints.min.js"></script>
+<script src="<?=$templateUriAssets?>/js/animate-css.js"></script>
+<script src="<?=$templateUriAssets?>/js/main.js"></script>
 </body>
 </html>

@@ -16,10 +16,10 @@
             crossorigin="anonymous"></script>
 
 
-    <link rel="stylesheet" href="<?=$templateUriA?>/css/main.css">
-    <script src="<?=$templateUriA?>/js/jquery.selectric.js"></script>
-    <script src="<?=$templateUriA?>/js/bootstrap-formhelpers.min.js"></script>
-    <link rel="shortcut icon" href="<?=$templateUriA?>/img/logo_fav.ico" type="image/x-icon">
+    <link rel="stylesheet" href="<?=$templateUriAssets?>/css/main.css">
+    <script src="<?=$templateUriAssets?>/js/jquery.selectric.js"></script>
+    <script src="<?=$templateUriAssets?>/js/bootstrap-formhelpers.min.js"></script>
+    <link rel="shortcut icon" href="<?=$templateUriAssets?>/img/logo_fav.ico" type="image/x-icon">
 
 </head>
 <body>
@@ -28,7 +28,7 @@
         <div class="row top-line">
             <div class="col-4 col-md-5 col-lg-6">
                 <div class="logo">
-                    <a href="#"><img src="<?=$templateUriA?>/img/logo-green.png" alt="WeDo"></a>
+                    <a href="#"><img src="<?=$templateUriAssets?>/img/logo-green.png" alt="WeDo"></a>
                 </div>
             </div>
             <div class="col-6 col-md-6 col-lg-5">
@@ -101,7 +101,7 @@
             <div class="col-xl-6">
                 <div class="item">
                     <div class="icon">
-                        <img src="<?=$templateUriA?>/img/icons/check-square.png" alt="check">
+                        <img src="<?=$templateUriAssets?>/img/icons/check-square.png" alt="check">
                     </div>
                     <div class="text">
                         <p>Продают товары и услуги широкого спроса (технику, одежду, строительные материалы, бытовую химию и т.д.)</p>
@@ -109,7 +109,7 @@
                 </div>
                 <div class="item">
                     <div class="icon">
-                        <img src="<?=$templateUriA?>/img/icons/check-square.png" alt="check">
+                        <img src="<?=$templateUriAssets?>/img/icons/check-square.png" alt="check">
                     </div>
                     <div class="text">
                         <p>Работают на высоко конкурентном рынке</p>
@@ -117,7 +117,7 @@
                 </div>
                 <div class="item">
                     <div class="icon">
-                        <img src="<?=$templateUriA?>/img/icons/check-square.png" alt="check">
+                        <img src="<?=$templateUriAssets?>/img/icons/check-square.png" alt="check">
                     </div>
                     <div class="text">
                         <p>Хотят выйти в новые регионы</p>
@@ -125,7 +125,7 @@
                 </div>
                 <div class="item">
                     <div class="icon">
-                        <img src="<?=$templateUriA?>/img/icons/check-square.png" alt="check">
+                        <img src="<?=$templateUriAssets?>/img/icons/check-square.png" alt="check">
                     </div>
                     <div class="text">
                         <p>Клиенты нужны «на вчера»</p>
@@ -147,7 +147,7 @@
             <div class="col-lg-4 col-xl-4">
                 <div class="item">
                     <div class="icon">
-                        <img src="<?=$templateUriA?>/img/icons/search-property.png" alt="search">
+                        <img src="<?=$templateUriAssets?>/img/icons/search-property.png" alt="search">
                     </div>
                     <hr>
                     <div class="text">
@@ -158,7 +158,7 @@
             <div class="col-lg-4 col-xl-4">
                 <div class="item">
                     <div class="icon">
-                        <img src="<?=$templateUriA?>/img/icons/user-group-man.png" alt="search">
+                        <img src="<?=$templateUriAssets?>/img/icons/user-group-man.png" alt="search">
                     </div>
                     <hr>
                     <div class="text">
@@ -169,7 +169,7 @@
             <div class="col-lg-4 col-xl-4">
                 <div class="item">
                     <div class="icon">
-                        <img src="<?=$templateUriA?>/img/icons/online-payment.png" alt="search">
+                        <img src="<?=$templateUriAssets?>/img/icons/online-payment.png" alt="search">
                     </div>
                     <hr>
                     <div class="text">
@@ -295,12 +295,12 @@
                 </tr>
                 <tr>
                     <th class="t-col1" scope="row">Разработка рекламы в поисковой системе</th>
-                    <td class="t-col2"><img src="<?=$templateUriA?>/img/icons/check_green.png" alt="yes"></td>
-                    <td class="t-col3"><img src="<?=$templateUriA?>/img/icons/check_green.png" alt="yes"></td>
+                    <td class="t-col2"><img src="<?=$templateUriAssets?>/img/icons/check_green.png" alt="yes"></td>
+                    <td class="t-col3"><img src="<?=$templateUriAssets?>/img/icons/check_green.png" alt="yes"></td>
                 </tr>
                 <tr>
                     <th class="t-col1" scope="row">Рекламная и партнёрская сеть (КМС, РСЯ) <br> <span class="small-italic">Реклама будет показана на площадках (сайтах), которые входят в рекламную сеть поисковых систем</span></th>
-                    <td class="t-col2"><img src="<?=$templateUriA?>/img/icons/close_gray.png" alt="no"></td>
+                    <td class="t-col2"><img src="<?=$templateUriAssets?>/img/icons/close_gray.png" alt="no"></td>
                     <td class="t-col3">Возможно опционально</td>
                 </tr>
                 <tr>
@@ -315,18 +315,18 @@
                 </tr>
                 <tr>
                     <th class="t-col1" scope="row">Установка систем аналитики и настройка целей на сайте</th>
-                    <td class="t-col2"><img src="<?=$templateUriA?>/img/icons/close_gray.png" alt="no"></td>
-                    <td class="t-col3"><img src="<?=$templateUriA?>/img/icons/check_green.png" alt="yes"></td>
+                    <td class="t-col2"><img src="<?=$templateUriAssets?>/img/icons/close_gray.png" alt="no"></td>
+                    <td class="t-col3"><img src="<?=$templateUriAssets?>/img/icons/check_green.png" alt="yes"></td>
                 </tr>
                 <tr>
                     <th class="t-col1" scope="row">Ежедневное сопровождение</th>
-                    <td class="t-col2"><img src="<?=$templateUriA?>/img/icons/close_gray.png" alt="no"></td>
-                    <td class="t-col3"><img src="<?=$templateUriA?>/img/icons/check_green.png" alt="yes"></td>
+                    <td class="t-col2"><img src="<?=$templateUriAssets?>/img/icons/close_gray.png" alt="no"></td>
+                    <td class="t-col3"><img src="<?=$templateUriAssets?>/img/icons/check_green.png" alt="yes"></td>
                 </tr>
                 <tr>
                     <th class="t-col1" scope="row">Отчёт за месяц</th>
-                    <td class="t-col2"><img src="<?=$templateUriA?>/img/icons/close_gray.png" alt="no"></td>
-                    <td class="t-col3"><img src="<?=$templateUriA?>/img/icons/check_green.png" alt="yes"></td>
+                    <td class="t-col2"><img src="<?=$templateUriAssets?>/img/icons/close_gray.png" alt="no"></td>
+                    <td class="t-col3"><img src="<?=$templateUriAssets?>/img/icons/check_green.png" alt="yes"></td>
                 </tr>
                 <tr>
                     <th class="t-col1" scope="row">Цена</th>
@@ -341,7 +341,7 @@
                         <br><br><a href="#" data-toggle="modal" data-target="#modal-freecalc-kr">Заказать бесплатный расчёт</a></td>
                 </tr>
                 <tr>
-                    <th class="t-col1" scope="row"><img src="<?=$templateUriA?>/img/icons/gift.png" alt="Gift">Ваши подарки</th>
+                    <th class="t-col1" scope="row"><img src="<?=$templateUriAssets?>/img/icons/gift.png" alt="Gift">Ваши подарки</th>
                     <td class="t-col2">Рекомендации по сопровождению компании и KPI для отслеживания эффективности</td>
                     <td class="t-col3">Скидка 10% на SEO или рекламу в социальных сетях</td>
                 </tr>
@@ -590,7 +590,7 @@
 
 <div class="call-back-kr">
     <a href="#" ontouchstart="" data-toggle="modal" data-target="#modal-callback-kr">
-        <img src="<?=$templateUriA?>/img/icons/shake-phone.png" alt="Phone">
+        <img src="<?=$templateUriAssets?>/img/icons/shake-phone.png" alt="Phone">
         <div class="overlay">
             <div class="text">Обратный звонок</div>
         </div>
@@ -602,7 +602,7 @@
         <div class="row items justify-content-center align-items-center no-gutters">
             <div class="col-12 col-md-12 col-xl-12 item justify-content-center align-items-center">
                 <div class="logo-footer">
-                    <a href=""><img src="<?=$templateUriA?>/img/logo-green.png" alt="WeDo"></a>
+                    <a href=""><img src="<?=$templateUriAssets?>/img/logo-green.png" alt="WeDo"></a>
                     <div class="footer-phone">
                         <a href="tel:+38(098)151-20-15">+38(098)151-20-15</a>
                     </div>
@@ -620,7 +620,7 @@
                 <div class="row justify-content-end">
                     <div class="col-2 justify-content-end">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <img src="<?=$templateUriA?>/img/icons/close(black).png" alt="close">
+                            <img src="<?=$templateUriAssets?>/img/icons/close(black).png" alt="close">
                         </button>
                     </div>
                 </div>
@@ -672,7 +672,7 @@
                 <div class="row justify-content-end">
                     <div class="col-2 justify-content-end">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <img src="<?=$templateUriA?>/img/icons/close(black).png" alt="close">
+                            <img src="<?=$templateUriAssets?>/img/icons/close(black).png" alt="close">
                         </button>
                     </div>
                 </div>
@@ -734,7 +734,7 @@
                 <div class="row justify-content-end">
                     <div class="col-2 justify-content-end">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <img src="<?=$templateUriA?>/img/icons/close(black).png" alt="close">
+                            <img src="<?=$templateUriAssets?>/img/icons/close(black).png" alt="close">
                         </button>
                     </div>
                 </div>
@@ -805,7 +805,7 @@
                 <div class="row justify-content-end">
                     <div class="col-2 justify-content-end">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <img src="<?=$templateUriA?>/img/icons/close(black).png" alt="close">
+                            <img src="<?=$templateUriAssets?>/img/icons/close(black).png" alt="close">
                         </button>
                     </div>
                 </div>
@@ -872,7 +872,7 @@
                  <div class="row justify-content-end">
                      <div class="col-2 justify-content-end">
                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                             <img src="<?=$templateUriA?>/img/icons/close(black).png" alt="close">
+                             <img src="<?=$templateUriAssets?>/img/icons/close(black).png" alt="close">
                          </button>
                      </div>
                  </div>
@@ -923,7 +923,7 @@
                 <div class="row justify-content-end">
                     <div class="col-2 justify-content-end">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <img src="<?=$templateUriA?>/img/icons/close(black).png" alt="close">
+                            <img src="<?=$templateUriAssets?>/img/icons/close(black).png" alt="close">
                         </button>
                     </div>
                 </div>
@@ -944,10 +944,10 @@
 
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="<?=$templateUriA?>/js/owl.carousel.min.js"></script>
- <script src="<?=$templateUriA?>/js/config.js"></script>
- <script src="<?=$templateUriA?>/js/waypoints.min.js"></script>
- <script src="<?=$templateUriA?>/js/animate-css.js"></script>
-<script src="<?=$templateUriA?>/js/main.js"></script>
+<script src="<?=$templateUriAssets?>/js/owl.carousel.min.js"></script>
+ <script src="<?=$templateUriAssets?>/js/config.js"></script>
+ <script src="<?=$templateUriAssets?>/js/waypoints.min.js"></script>
+ <script src="<?=$templateUriAssets?>/js/animate-css.js"></script>
+<script src="<?=$templateUriAssets?>/js/main.js"></script>
 </body>
 </html>
