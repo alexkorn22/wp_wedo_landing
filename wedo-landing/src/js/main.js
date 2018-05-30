@@ -64,7 +64,8 @@ $( document ).ready(function() {
         autoplayTimeout:7000, //Время смены слайда
         dots: false,
         nav: true,
-        navText: ["<img src='../img/Arrows-Back-icon.png'>","<img src='../img/Arrows-Back-icon.png'>"],
+        navText : ["",""],
+        rewindNav : true,
         responsive:{ //Адаптация в зависимости от разрешения экрана
             0:{
                 items:1,
@@ -118,7 +119,8 @@ $( document ).ready(function() {
         dots: false,
         nav: true,
         autoHeight:true,
-        navText: ["<img src='../img/Arrows-Back-icon.png'>","<img src='../img/Arrows-Back-icon.png'>"],
+        navText : ["",""],
+        rewindNav : true,
         responsive:{ //Адаптация в зависимости от разрешения экрана
             0:{
                 items:1,
@@ -145,7 +147,8 @@ $( document ).ready(function() {
         autoplayTimeout:7000, //Время смены слайда
         dots: false,
         nav: true,
-        navText: ["<img src='../img/Arrows-Back-icon.png'>","<img src='../img/Arrows-Back-icon.png'>"],
+        navText : ["",""],
+        rewindNav : true,
         responsive:{ //Адаптация в зависимости от разрешения экрана
             0:{
                 items:1,
@@ -170,7 +173,8 @@ $( document ).ready(function() {
         autoplayTimeout:7000, //Время смены слайда
         dots: false,
         nav: true,
-        navText: ["<img src='../img/Arrows-Back-icon.png'>","<img src='../img/Arrows-Back-icon.png'>"],
+        navText : ["",""],
+        rewindNav : true,
         responsive:{ //Адаптация в зависимости от разрешения экрана
             0:{
                 items:1,
@@ -223,7 +227,8 @@ $( document ).ready(function() {
         autoplayTimeout:7000, //Время смены слайда
         dots: false,
         nav: true,
-        navText: ["<img src='../img/Arrows-Back-icon.png'>","<img src='../img/Arrows-Back-icon.png'>"],
+        navText : ["",""],
+        rewindNav : true,
         responsive:{ //Адаптация в зависимости от разрешения экрана
             0:{
                 items:1,
@@ -250,7 +255,8 @@ $( document ).ready(function() {
         autoplayTimeout:7000, //Время смены слайда
         dots: false,
         nav: true,
-        navText: ["<img src='../img/Arrows-Back-icon.png'>","<img src='../img/Arrows-Back-icon.png'>"],
+        navText : ["",""],
+        rewindNav : true,
         responsive:{ //Адаптация в зависимости от разрешения экрана
             0:{
                 items:1,
