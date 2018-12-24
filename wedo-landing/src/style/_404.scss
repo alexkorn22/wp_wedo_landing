@@ -1,0 +1,112 @@
+.head-404 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: $blueDark;
+
+  .head-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px 0 20px 0;
+  }
+
+  .top-line {
+    .logo {
+      max-width: 180px;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .phone{
+      text-align: right;
+      a {
+        color: $white;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: $OpenSansLight;
+        transition: 0.5s;
+        &:hover {
+          color: $pink;
+        }
+      }
+    }
+  }
+  .center-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .wrap-image-bg {
+      max-width: 100%;
+      margin-top: 50px;
+    }
+    .wrap-text {
+      position: absolute;
+      z-index: 5;
+      max-width: 650px;
+      .title_404 {
+        color: $blueDark;
+        font-size: 120px;
+        font-family: $OpenSansExtra-Bold;
+        text-align: center;
+        margin: 0;
+        line-height: 105px;
+      }
+      .descr_404 {
+        color: $white;
+        font-size: 22px;
+        text-align: center;
+        padding: 0 80px;
+        line-height: 30px;
+        margin-top: 30px;
+      }
+      .wrap-btn {
+        height: auto;
+        margin-top: 40px;
+      }
+      @include media-breakpoint-down(sm){
+        .title_404 {
+          color: $bgHead;
+        }
+        .descr_404 {
+          color: $white;
+          font-size: 22px;
+          text-align: center;
+          padding: 0;
+          line-height: 30px;
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+  .bottom-line {
+    .copyright {
+      width: 100%;
+      text-align: center;
+      margin: 0;
+      font-size: 10px;
+      color: $grayLight;
+    }
+  }
+
+  @include media-breakpoint-down(sm){
+    .head-content {
+      padding: 20px 15px 20px 15px;
+    }
+    .top-line {
+      .logo img{
+        width: 100px;
+        height: auto;
+      }
+      .phone a{
+        font-size: 12px;
+      }
+    }
+    .bottom-line {
+      
+    }
+  }
+}

@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<title>Разработка интернет-магазина, продвижение (seo,ppc,smm) | WeDo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="yandex-verification" content="80567c69a37b1299" />
+	<meta name='freelancehunt' content='f1392e2ffcdd730' />
+	<meta name="description" content="Создание интернет-магазина с нуля. Интеграция с 1С и учётными системами. SEO, контекстная реклама, продвижение в социальных сетях. Бесплатная консультация.">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    
+		
+	
+	<link rel="stylesheet" href="<?=$templateUriA?>/css/main.css">
+	<script src="<?=$templateUriA?>/js/jquery.selectric.js"></script>
+	<script src="<?=$templateUriA?>/js/bootstrap-formhelpers.min.js"></script>
+	<link rel="shortcut icon" href="<?=$templateUriA?>/img/logo_fav.ico" type="image/x-icon">
+
+</head>
+	<body>
+	<header>
+		<div class="container b-head-height">
+			<div class="parallax">
+				<div class="image-parallax man"></div>
+			</div>
+			<div class="row top-line align-items-center">
+					<div class="col-4 col-md-5 col-lg-6 item">
+						<div class="logo">
+							<a href=""><img src="<?=$templateUriA?>/img/logoWedo.png" alt="WeDo"></a>
+						</div>
+					</div>
+					<div class="col-6 col-md-6 col-lg-5 item">
+						<div class="phone">
+							<a href="tel:+38(098)150-83-95">+38(098)150-83-95</a>
+							<div class="collapse-lang">
+								<div class="ru" onclick="changePath('/')"><p>RU</p></div>
+								<div class="en" onclick="changePath('/en')"><p>EN</p></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-2 col-md-1 col-lg-1 item">
+						<div class="hamburger-menu">
+						    <div class="responsive-nav">
+						        <span></span>
+						        <span></span>
+						        <span></span>
+						    </div>
+						    <nav class="nav-menu">
+						        <div class="responsive-nav">
+						            <span></span>
+						            <span></span>
+						            <span></span>
+						        </div>
+						        <ul class="main-menu">
+						            <li><a href="\">Главная</a></li>
+						            <li><a href="\sozdanie-saitov\">Создание сайтов</a></li>
+						            <li><a href="\internet-magaziny\">Создание интернет-магазинов</a></li>
+						            <li><a href="\kontekstnaya-reklama\">Контекстная реклама</a></li>
+						            <li><a href="\seo\">SEO-продвижение</a></li>
+						            <li><a href="\smm\">SMM</a></li>
+						            <li class="current_page"><a href="\blog\">Блог</a></li>
+						        </ul>
+						    </nav>
+						</div>
+					</div>
+				</div>
+			<div class="row align-items-center justify-content-end" id="menu">
+					<div class="col-12 col-md-9 col-xl-6">
+						<ul>
+							<li><a href="#development">Development of online stores</a></li>
+							<li><a href="#integration">Integration with accounting systems</a></li>
+							<li><a href="#advancement">Promotion of online stores</a></li>
+						</ul>
+					</div>
+				</div>
+			<div class="row wrap-btn align-items-center justify-content-center">
+				<div class="col-12 col-xl-4">
+					<div class="button">
+						<a href="#" data-toggle="modal" data-target="#myModal" class="btn-pink" data-wipe="Free consultation">Free consultation</a>
+						<!--<a href="#" class="btn-pink b24-web-form-popup-btn-12 b24-web-form-popup-btn-6" data-wipe="Free consultation">Free consultation</a>-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="wedo">
+		<div class="container">
+			<div class="row wrap-title justify-content-end">
+				<div class="col-12 col-md-12 col-xl-11">
+					<h1>WeDo</h1>
+					<h1>development of effective systems<br>of online sales </h1>
+				</div>
+			</div>
+			<div class="row items">
+				<div class="col-12 col-md-4 col-xl-4 align-self-center item"><p>Since <span>2008</span> in <br>the field of IT and <br>marketing</p></div>
+				<div class="col-12 col-md-4 col-xl-4 align-self-center item"><p>More than <span>100</span><br>successful web and accounting <br>systems’ projects</p></div>
+				<div class="col-12 col-md-4 col-xl-4 align-self-center item"><p>More than <span>10</span><br>specialists working with <br>the project</p></div>
+			</div>
+			<div class="row wrap-btn align-items-center justify-content-center">
+				<div class="col-12 col-xl-4">
+					<div class="button">
+						<a href="#" data-toggle="modal" data-target="#myModal" class="btn-pink" data-wipe="Free consultation">Free consultation</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="development">
+		<div class="container">
+			<div class="row wrap-title justify-content-end">
+				<div class="col-12 col-md-12 col-xl-11">
+					<h2>Development of online stores</h2>
+					<h2>we will help you to sell products 24 hours <br class='hidden-sm-down'> a day, 7 days a week</h2>
+				</div>
+			</div>
+
+			<div class="row content">
+				<div class="col-12 col-md-12 col-lg-6 col-xl-6">
+					<section class="timeline">
+						<ul>
+							<li><div>Analysis <br>of business <br>and niche</div></li>
+							<li><div>Strategy <br>development</div></li>
+							<li><div>Website <br>design and <br>programming</div></li>
+							<li><div>Integration <br>with accounting <br>systems</div></li>
+							<li><div>The launch of <br>the project and <br>technical support</div></li>
+							<li><div>Marketing <br>promotion</div></li>
+						</ul>
+					</section>
+				</div>
+				<div class="col-12 col-md-12 col-lg-6 col-xl-6">
+					<div class="ribbon-phone">
+						<div class="ribbon-text">
+							<div class="wrap-thesis">
+								<ul class="thesis">
+									<li>Mobile Friendly</li>
+									<li>UX design</li>
+									<li>SEO, PPC, SMM</li>
+									<li>High conversion rate</li>
+									<li>Prompt tech support</li>
+								</ul>
+							</div>
+						</div>
+						<div class="wrap-btn">
+							<div class="button">
+								<a href="#" data-toggle="modal" data-target="#myModal" class="btn-pink" data-wipe="Online store calculation">Online store calculation</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="integration">
+		<div class="container">
+			<div class="row wrap-title justify-content-end">
+				<div class="col-12 col-md-12 col-xl-11">
+					<h2>Integration with accounting systems</h2>
+					<h2>we will accelerate the acceptance of orders and provide actual product prices and availability on the website</h2>
+					<!--<h2>мы ускорим приём заказов и обеспечим<br class="hidden-sm-down">актуальные цены и наличие на сайте</h2>-->
+				</div>
+			</div>
+			<div class="row items">
+				<div class="col-12 col-md-6 col-xl-6 align-self-center item"><p>Automatic <br><span>uploading</span><br> of products and orders</p></div>
+				<div class="col-12 col-md-6 col-xl-6 align-self-center item"><p>Automated <br><span>Manager’s workplace</span><br> for dealing with the orders</p></div>
+			</div>
+			<div class="row items">
+				<div class="col-12 col-md-6 col-xl-6 align-self-center item"><p>The system for <span> Customer <br>relationship management</span><br> (CRM)</p></div>
+				<div class="col-12 col-md-6 col-xl-6 align-self-center item"><p>Complex <br><span>discount and bonus</span><br> programs in the online shop</p></div>
+			</div>
+		</div>
+	</section>
+	<section id="advancement">
+		<div class="container">
+			<div class="row wrap-title justify-content-end">
+				<div class="col-12 col-md-12 col-xl-11">
+					<h2>The promotion of an online store</h2>
+					<h2>we bring targeted customers and increase <br>brand awareness</h2>
+				</div>
+			</div>
+			<div class="row items justify-content-center no-gutters">
+				<div class="col-12 col-md-6 col-xl-4 align-self-center item">
+					<a href="/seo/" class="link-to-other-page" target="_blank">
+						<p>SEO</p>
+						<p>Increases online <br>stores’ visibility in search <br>engines (Google, Bing, <br>Yandex etc)</p>
+					</a>
+				</div>
+				<div class="col-12 col-md-6 col-xl-4 align-self-center item">
+					<a href="/kontekstnaya-reklama/" class="link-to-other-page" target="_blank">
+						<p>PPC</p>
+						<p>Quickly attracts <br>customers that plan to <br>purchase online stores’ <br>goods of defined kind</p>
+					</a>
+				</div>
+				<div class="col-12 col-md-6 col-xl-11 align-self-center item hidden-sm-down">
+					<div class="wrap-btn">
+						<div class="button">
+							<a href="#" data-toggle="modal" data-target="#myModal" class="btn-pink" data-wipe="Help in choosing">Help in choosing</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-xl-4 align-self-center item">
+					<a href="/smm/" class="link-to-other-page" target="_blank">
+						<p>SMM</p>
+						<p>Increases company’s <br>and brand’s awareness <br>by gaining customers’ <br>confidence</p>
+					</a>
+				</div>
+			</div>
+			<div class="row justify-content-end">
+				<div class="col-12 col-xl-11">
+					<div class="wrap-btn">
+						<div class="button">
+							<a href="#" data-toggle="modal" data-target="#myModal" class="btn-pink" data-wipe="Help in choosing">Help in choosing</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row items justify-content-center align-items-center no-gutters">
+				<div class="col-12 col-md-4 col-xl-3 item">
+					<div class="phone-footer hidden-sm-down">
+						<p>+38(098)150-83-95</p>
+						<p>Zaporozhye, Ukraine</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 col-xl-6 item">
+					<div class="logo-footer">
+						<a href=""><img src="<?=$templateUriA?>/img/logoWedo.png" alt="WeDo"></a>
+						<p>© Copyright 2017, All rights reserved</p>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 col-xl-3 item">
+					<div class="menu-footer">
+						<ul>
+							<li><a href="#development">Development of online stores</a></li>
+							<li><a href="#integration">Integration with accounting systems</a></li>
+							<li><a href="#advancement">Promotion of online stores</a></li>
+							<li><a href="">Job opportunity</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Modal -->
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			<div class="container-fluid">
+				<div class="row justify-content-end">
+					<div class="col-2 justify-content-end">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<img src="<?=$templateUriA?>/img/close.png" alt="">
+						</button>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-10">
+						<h3 class="modal-title" id="exampleModalLabel">Please enter your contact details and we will provide you with a free consultation</h3>
+					</div>
+				</div>
+				<div id="hidden-row" class="row">
+					<div class="modal-body">
+						<div class="container1">
+							<div class="card">
+								<form id="callback-form">
+									<div class="input-container">
+										<input type="text" id="Username" name="Username" required>
+										<label for="Username">Name</label>
+										<div class="bar"></div>
+									</div>
+									<div class="input-container number">
+										<input class="form-control bfh-phone" type="text" id="phone" value="" name="phone" data-format="+380 (dd) ddd-dd-dd" required>
+										<label for="phone">Phone</label>
+										<div class="bar"></div>
+									</div>
+									<div class="errorMessage" style="display: none">Specify your phone. (see the hint)</div>
+									<div class="input-container">
+										<select class="form-control" id="select" name="select" required>
+											<option value="" disabled selected>You need</option>
+											<option value="Development of online stores">Development of online stores</option>
+											<option value="Integration with accounting systems">Integration with accounting systems</option>
+											<option value="Promotion of online stores">Promotion of online stores</option>
+										</select>
+										<div class="bar"></div>
+									</div>
+									<div class="button-container">
+										<div class="wrap-btn">
+											<div class="button">
+												<button type="submit" class="btn" data-wipe="Send">Send</button>
+												<!--<a href="" id="submit-btn" class="btn-pink" data-wipe="Отправить заявку">Отправить заявку</a>-->
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+    <!--<div class="wrap-alert">
+        <div class="alert-div" id="alert">
+            <p>Thank you! We will contact you to discuss the project.</p>
+            <div class="wrap-btn">
+                <div class="button">
+                    <a href="#" id="open-close" class="btn-pink" data-wipe="ОК">ОК</a>
+                </div>
+            </div>
+        </div>
+    </div>-->
+	<!-- END Modal -->
+    <div class="modal fade" id="modal-thank" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p>Thank you! We will contact you to discuss the project.</p>
+                </div>
+                <div class="modal-footer">
+                    <div class="wrap-btn">
+                        <div class="button">
+                            <a href="#" data-dismiss="modal" class="btn-pink" data-wipe="ОК">ОК</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script>
+        var oldUrl = window.location.pathname;
+        var path = oldUrl.split('/');
+
+        function changePath(local) {
+            if (!!~['en'].indexOf(path[1])) {
+                window.location.href = local=="/en" ? oldUrl: "/";
+            }
+            else {
+                window.location.href = local=="/" ? oldUrl: local + oldUrl;
+            }
+        }
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<script src="<?=$templateUriA?>/js/owl.carousel.min.js"></script>
+	<script src="<?=$templateUriA?>/js/config.js"></script>
+	<script src="<?=$templateUriA?>/js/waypoints.min.js"></script>
+	<script src="<?=$templateUriA?>/js/animate-css.js"></script>
+	<script src="<?=$templateUriA?>/js/main.js"></script>
+	<!--<script src="js/bootstrap-formhelpers.min.js"></script>-->
+	</body>
+</html>

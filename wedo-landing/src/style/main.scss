@@ -1,0 +1,43 @@
+@import "fonts";
+@import "variable";
+@import "../../node_modules/bootstrap/scss/bootstrap-reboot";
+@import "home";
+@import "vacansies";
+@import "reklama";
+@import "seo";
+@import "smm";
+@import "im";
+@import "site";
+@import "blog";
+@import "404";
+@import "modules/button";
+@import "modules/breadcrumb";
+@import "modules/pagination";
+@import "modules/hamburger-menu";
+@import "selectric";
+@import "bootstrap-formhelpers.min.css";
+@import "animate.css";
+
+body {
+  background: $white;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-family: $OpenSansLight;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding-right: 0px !important;
+  h1, h2, h3, h4, h5, h6 {
+    font: inherit;
+    font-size: 100%;
+  }
+  a:focus {
+    outline: none;
+  }
+}
+
+//media
+@import "media";
+@import "owl.carousel.min.css";
+@import "owl.theme.default.min.css";
