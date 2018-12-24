@@ -4,6 +4,9 @@ $templateUriA = $templateUri."/assets";
 $templateDir = get_template_directory();
 $URI=$_SERVER['REQUEST_URI']; 
 
+// var_dump($templateUri);
+// die();
+
 if ($URI == "/") {
     include_once $templateDir . "/content/main.php";
 } else {
@@ -11,9 +14,7 @@ if ($URI == "/") {
     $FullPageName = $templateDir . "/content" . $pageName . ".php";
     if (file_exists($FullPageName)) {
         include_once $FullPageName;
-    } else {
-        http_response_code(404);
-    }
+    } 
 }
 
 ?>
