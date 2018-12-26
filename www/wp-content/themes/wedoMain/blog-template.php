@@ -92,6 +92,16 @@ $wp_query->is_home = false;
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 ml-lg-auto">
+
+                    <div class="wrap-sidebar">
+                        <div class="sidebar">
+                            <?php get_sidebar( 'popular' ); ?>
+                            <?php get_sidebar( 'tags' ); ?>
+
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="row">
                 <div class="col">
