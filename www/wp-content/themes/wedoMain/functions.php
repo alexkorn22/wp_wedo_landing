@@ -183,3 +183,31 @@ function kama_pagenavi( $args = array(), $wp_query = null ){
  *                  - Перенес параметры $before, $after, $echo в $args (старый вариант будет работать).
  * 2.5 - 2.5.1      - Автоматический сброс основного запроса.
  */
+
+
+
+/*
+ * "Хлебные крошки" для WordPress
+ * автор: Dimox
+ * версия: 2018.10.05
+ * лицензия: MIT
+*/
+
+
+function getBreadcrumbs () {
+    if (is_home()) {
+        return '';
+    }
+    $arNavs = [];
+    $arNavs[] = '<a href="' . home_url() . '" class="breadcrumb-link">Главная</a>';
+    if (is_category()) {
+        $arNavs[] = '<a href="' . get_page_link() . '" class="breadcrumb-link breadcrumb-link_active">' . get_the_title() . '</a>';
+    }
+    $result = '<nav id="breadcrumb" class="breadcrumb">';
+    foreach ($arNavs as $arNav) {
+        $result .= $arNav;
+    }
+    $result .= '</nav>';
+    return $result;
+
+}

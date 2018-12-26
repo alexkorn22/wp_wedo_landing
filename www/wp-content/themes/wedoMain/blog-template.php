@@ -9,9 +9,14 @@ $args = array(
     'posts_per_page' => get_option('posts_per_page'), // значение по умолчанию берётся из настроек, но вы можете использовать и собственное
     'paged' => $current_page // текущая страница
 );
+
+if (isset($_GET['tag'])) {
+    $args['tag'] = $_GET['tag'];
+}
+
 query_posts($args);
 
-$wp_query->is_archive = true;
+$wp_query->is_category = true;
 $wp_query->is_home = false;
 
 ?>
@@ -70,10 +75,11 @@ $wp_query->is_home = false;
         <div class="wrap-breadcrumb">
             <div class="row">
                 <div class="col">
-                    <nav id="breadcrumb" class="breadcrumb">
-                        <a href="index.html" class="breadcrumb-link">Главная</a>
-                        <a href="blog.html" class="breadcrumb-link breadcrumb-link_active">Блог</a>
-                    </nav>
+                    <?=getBreadcrumbs();?>
+<!--                    <nav id="breadcrumb" class="breadcrumb">-->
+<!--                        <a href="index.html" class="breadcrumb-link">Главная</a>-->
+<!--                        <a href="blog.html" class="breadcrumb-link breadcrumb-link_active">Блог</a>-->
+<!--                    </nav>-->
                 </div>
             </div>
         </div>

@@ -1,9 +1,22 @@
+<?
+$posttags = get_tags();
+$curTagSlug = '';
+if (isset($_GET['tag'])) {
+    $curTagSlug = $_GET['tag'];
+}
+?>
 <div class="block-tags d-none d-lg-block">
     <div class="title-block">Теги</div>
-    <a href="#" class="tag tag_active">seo</a>
-    <a href="#" class="tag">контекстная реклама</a>
-    <a href="#" class="tag">smm</a>
-    <a href="#" class="tag">продвижение сайта</a>
-    <a href="#" class="tag">instagram</a>
-    <a href="#" class="tag">интренет-магазин</a>
+    <? foreach ($posttags as $tag):?>
+        <?
+        $href = add_query_arg( 'tag', $tag->slug, '/blog/' );
+        if ($curTagSlug == $tag->slug) {
+            $href = '/blog/';
+        }
+        ?>
+        <a href="<?= $href?>" class="tag <? if ($curTagSlug == $tag->slug):?>tag_active<?endif;?>">
+            <?=$tag->name?>
+        </a>
+    <? endforeach;?>
 </div>
+
