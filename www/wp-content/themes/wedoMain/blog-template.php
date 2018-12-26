@@ -72,18 +72,7 @@ $wp_query->is_home = false;
     </div>
 
     <div class="container">
-        <div class="wrap-breadcrumb">
-            <div class="row">
-                <div class="col">
-                    <?=getBreadcrumbs();?>
-<!--                    <nav id="breadcrumb" class="breadcrumb">-->
-<!--                        <a href="index.html" class="breadcrumb-link">Главная</a>-->
-<!--                        <a href="blog.html" class="breadcrumb-link breadcrumb-link_active">Блог</a>-->
-<!--                    </nav>-->
-                </div>
-            </div>
-        </div>
-
+        <?php get_sidebar( 'breadcrumb' ); ?>
         <div class="content-blog">
             <div class="row">
                 <div class="col-lg-7">
@@ -91,7 +80,6 @@ $wp_query->is_home = false;
                         <div class="row">
                             <?
                             while (have_posts()): the_post();
-
                                 get_template_part('template-parts/preview-record', 'single');
                             endwhile;
                             ?>
