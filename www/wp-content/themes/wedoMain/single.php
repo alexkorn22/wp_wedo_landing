@@ -3,9 +3,13 @@
 if (have_posts()) {
     the_post();
 }
+$imgBackground = CFS()->get( 'mainImg' );
+if (!$imgBackground) {
+    $imgBackground = App::$app->getImgNoPhoto();
+}
 ?>
 
-    <div class="head-news" style="background-image: url('<?=App::$app->pathAsset?>/img/blog/cat1-min.png')">
+    <div class="head-news" style="background-image: url('<?= $imgBackground?>')">
         <div class="container head-content">
             <? get_template_part('template-parts/top-line');?>
             <div class="row center-line"></div>
