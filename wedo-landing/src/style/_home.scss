@@ -640,6 +640,9 @@ footer {
         @include media-breakpoint-between(sm, md){
           font-size: 13px;
         }
+        a {
+          color: $white;
+        }
       }
     }
     .logo-footer {
