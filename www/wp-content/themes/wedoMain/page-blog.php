@@ -1,23 +1,7 @@
 <?php
-/*
- * Template name: Блог
- */
 get_header();
 
-$current_page = (get_query_var('paged')) ? get_query_var('paged') : 1; // определяем текущую страницу блога
-$args = array(
-    'posts_per_page' => get_option('posts_per_page'), // значение по умолчанию берётся из настроек, но вы можете использовать и собственное
-    'paged' => $current_page // текущая страница
-);
 
-if (isset($_GET['tag'])) {
-    $args['tag'] = $_GET['tag'];
-}
-
-query_posts($args);
-
-$wp_query->is_category = true;
-$wp_query->is_home = false;
 
 ?>
     <div class="head-blog">
@@ -68,7 +52,22 @@ $wp_query->is_home = false;
             <div class="row bottom-line"></div>
         </div>
     </div>
+<?
+$current_page = (get_query_var('paged')) ? get_query_var('paged') : 1; // определяем текущую страницу блога
+$args = array(
+    'posts_per_page' => get_option('posts_per_page'), // значение по умолчанию берётся из настроек, но вы можете использовать и собственное
+    'paged' => $current_page // текущая страница
+);
 
+if (isset($_GET['tag'])) {
+    $args['tag'] = $_GET['tag'];
+}
+
+query_posts($args);
+
+$wp_query->is_page = true;
+$wp_query->is_home = false;
+?>
     <div class="container">
         <?php get_sidebar( 'breadcrumb' ); ?>
         <div class="content-blog">
@@ -104,11 +103,4 @@ $wp_query->is_home = false;
 
     </div>
 <?
-
-
-
-
-
-
-
 get_footer();

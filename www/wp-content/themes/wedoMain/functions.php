@@ -23,6 +23,13 @@ function my_navigation_template( $template, $class ){
  ';
 }
 
+add_action('after_setup_theme', function(){
+    register_nav_menus( array(
+        'header_menu' => 'Меню в шапке',
+        'footer_menu' => 'Меню в подвале'
+    ) );
+});
+
 if ( function_exists( 'add_theme_support' ) )
 add_theme_support( 'post-thumbnails' );
 
@@ -200,7 +207,7 @@ function getBreadcrumbs () {
     }
     $arNavs = [];
     $arNavs[] = '<a href="' . home_url() . '" class="breadcrumb-link">' . __( 'Главная', 'wedo' ) . '</a>';
-    if (is_category()) {
+    if (is_page()) {
         $arNavs[] = '<a href="' . get_page_link() . '" class="breadcrumb-link breadcrumb-link_active">' . get_the_title() . '</a>';
     }
     if (is_single()) {

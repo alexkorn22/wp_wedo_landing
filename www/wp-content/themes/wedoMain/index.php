@@ -1,4 +1,5 @@
 <?php get_header();  ?>
+
 <header>
     <div class="container b-head-height">
         <div class="parallax">
@@ -29,15 +30,13 @@
                             <span></span>
                             <span></span>
                         </div>
-                        <ul class="main-menu">
-                            <li><a href="index.html">Главная</a></li>
-                            <li><a href="sozdanie-saitov.html">Создание сайтов</a></li>
-                            <li><a href="internet-magaziny.html">Создание интернет-магазинов</a></li>
-                            <li><a href="kontekstnaya-reklama.html">Контекстная реклама</a></li>
-                            <li><a href="seo.html">SEO-продвижение</a></li>
-                            <li><a href="smm.html">SMM</a></li>
-                            <li class="current_page"><a href="blog.html">Блог</a></li>
-                        </ul>
+                        <?
+                        wp_nav_menu([
+                            'theme_location'  => 'header_menu',
+                            'container'       => false,
+                            'menu_class'      => 'main-menu',
+                        ]);
+                        ?>
                     </nav>
                 </div>
             </div>
