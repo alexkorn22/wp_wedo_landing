@@ -34,6 +34,26 @@ if ( function_exists( 'add_theme_support' ) )
 add_theme_support( 'post-thumbnails' );
 
 
+add_action( 'wp_enqueue_scripts', 'getStyleScripts' );
+function getStyleScripts() {
+
+    wp_enqueue_style( 'bootstrap', App::$app->pathAsset . '/css/bootstrap.min.css');
+    wp_enqueue_style( 'main', App::$app->pathAsset . '/css/main.css');
+
+    wp_enqueue_script( 'jquery-3.2.1', App::$app->pathAsset . '/js/jquery-3.2.1.min.js', array(), '3.2.1', false );
+    wp_enqueue_script( 'jquery.selectric', App::$app->pathAsset . '/js/jquery.selectric.js', array(), '1', false );
+    wp_enqueue_script( 'bootstrap-formhelpers', App::$app->pathAsset . '/js/bootstrap-formhelpers.min.js', array(), '1', false );
+
+    wp_enqueue_script( 'tether', App::$app->pathAsset . '/js/tether.min.js', [], '1', true );
+    wp_enqueue_script( 'bootstrap', App::$app->pathAsset . '/js/bootstrap.min.js', [], '1', true );
+    wp_enqueue_script( 'owl.carousel', App::$app->pathAsset . '/js/owl.carousel.min.js', [], '1', true );
+    wp_enqueue_script( 'config', App::$app->pathAsset . '/js/config.js', [], '1', true );
+    wp_enqueue_script( 'waypoints', App::$app->pathAsset . '/js/waypoints.min.js', [], '1', true );
+    wp_enqueue_script( 'animate-css', App::$app->pathAsset . '/js/animate-css.js', [], '1', true );
+    wp_enqueue_script( 'main', App::$app->pathAsset . '/js/main.js', [], '1', true );
+
+}
+
 /**
  * Альтернатива wp_pagenavi. Создает ссылки пагинации на страницах архивов.
  *
@@ -182,24 +202,6 @@ function kama_pagenavi( $args = array(), $wp_query = null ){
     if( $rg->echo ) echo $out;
     else return $out;
 }
-/**
- * 2.7 (02.11.2018) - В $args можно указать второй параметр $wp_query, когда $args можно оставить пустым.
- *                  - Правки кода - исправил баги, переделал сбор элементов в массив.
- *                  - Новый хук `kama_pagenavi_elements`.
- * 2.6 (20.10.2018) - Убрал extract().
- *                  - Перенес параметры $before, $after, $echo в $args (старый вариант будет работать).
- * 2.5 - 2.5.1      - Автоматический сброс основного запроса.
- */
-
-
-
-/*
- * "Хлебные крошки" для WordPress
- * автор: Dimox
- * версия: 2018.10.05
- * лицензия: MIT
-*/
-
 
 function getBreadcrumbs () {
     if (is_home()) {

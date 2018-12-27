@@ -27,14 +27,6 @@
     </div>
 </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-<script src="<?=App::$app->pathAsset?>/js/owl.carousel.min.js"></script>
-<script src="<?=App::$app->pathAsset?>/js/config.js"></script>
-<script src="<?=App::$app->pathAsset?>/js/waypoints.min.js"></script>
-<script src="<?=App::$app->pathAsset?>/js/animate-css.js"></script>
-<script src="<?=App::$app->pathAsset?>/js/main.js"></script>
-<!--<script src="js/bootstrap-formhelpers.min.js"></script>-->
 </body>
-<? //wp_footer(); ?>
+<? wp_footer(); ?>
 </html>
