@@ -121,6 +121,7 @@
   }
   .center-line {  }
   .bottom-line {
+    flex-direction: column;
     color: $white;
     .date-news {
       font-size: 24px;

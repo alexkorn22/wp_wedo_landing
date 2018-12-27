@@ -199,8 +199,12 @@ function getBreadcrumbs () {
         return '';
     }
     $arNavs = [];
-    $arNavs[] = '<a href="' . home_url() . '" class="breadcrumb-link">Главная</a>';
+    $arNavs[] = '<a href="' . home_url() . '" class="breadcrumb-link">' . __( 'Главная', 'wedo' ) . '</a>';
     if (is_category()) {
+        $arNavs[] = '<a href="' . get_page_link() . '" class="breadcrumb-link breadcrumb-link_active">' . get_the_title() . '</a>';
+    }
+    if (is_single()) {
+        $arNavs[] = '<a href="/blog/" class="breadcrumb-link">' . __( 'Блог', 'wedo' ) . '</a>';
         $arNavs[] = '<a href="' . get_page_link() . '" class="breadcrumb-link breadcrumb-link_active">' . get_the_title() . '</a>';
     }
     $result = '<nav id="breadcrumb" class="breadcrumb">';

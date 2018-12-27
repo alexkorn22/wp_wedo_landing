@@ -9,7 +9,7 @@
             </div>
             <div class="col-12 col-md-4 col-xl-6 item">
                 <div class="logo-footer">
-                    <a href=""><img src="<?=App::$app->pathAsset?>/img/logoWedo.png" alt="WeDo"></a>
+                    <a href="<?=home_url()?>"><img src="<?=App::$app->pathAsset?>/img/logoWedo.png" alt="WeDo"></a>
                     <p>© Copyright 2018, Все права защищены</p>
                 </div>
             </div>
