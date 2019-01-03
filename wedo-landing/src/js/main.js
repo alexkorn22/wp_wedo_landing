@@ -1,3 +1,23 @@
+(function($,undefined){
+    '$:nomunge'; // Used by YUI compressor.
+
+    $.fn.serializeObject = function(){
+        var obj = {};
+
+        $.each( this.serializeArray(), function(i,o){
+            var n = o.name,
+                v = o.value;
+
+            obj[n] = obj[n] === undefined ? v
+                : $.isArray( obj[n] ) ? obj[n].concat( v )
+                    : [ obj[n], v ];
+        });
+
+        return obj;
+    };
+
+})(jQuery);
+
 $( document ).ready(function() {
 
    function seoChangeButton(fisrt, second, slideOne, slideTwo) {
@@ -352,15 +372,17 @@ $( document ).ready(function() {
     formArrModal.forEach(function (elem) {
         var singleFotm = $('#'+ elem).find('form');
         var _modal =  $('#'+ elem);
-        singleFotm.submit(function () {
+        singleFotm.submit(function (e) {
             var str =  $(this).find("input[id^='phone']").val();
             var found = str.match(/(?:\w)(?:(?:(?:(?:\+?3)?8\W{0,5})?0\W{0,5})?[34569]\s?\d[^\w,;(\+]{0,5})?\d\W{0,5}\d\W{0,5}\d\W{0,5}\d\W{0,5}\d\W{0,5}\d\W{0,5}\d(?!(\W?\d))/);
             var testNumber = str && found !== null;
             if (testNumber) {
+                var postData = $(this).serializeObject();
+                postData.action = 'sendAlert';
                 $.ajax({
                     type: "POST",
-                    url: "mail.php",
-                    data: $(this).serialize()
+                    url: myajax.url,
+                    data: postData
                 }).done(function() {
                     _modal.modal('toggle');
                     $('#modal-thank').modal('toggle');

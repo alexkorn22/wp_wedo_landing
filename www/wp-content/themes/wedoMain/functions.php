@@ -52,7 +52,16 @@ function getStyleScripts() {
     wp_enqueue_script( 'animate-css', App::$app->pathAsset . '/js/animate-css.js', [], '1', true );
     wp_enqueue_script( 'main', App::$app->pathAsset . '/js/main.js', [], '1', true );
 
+    wp_localize_script('main', 'myajax',
+        array(
+            'url' => admin_url('admin-ajax.php')
+        )
+    );
+
 }
+
+require_once 'inc/ajax.php';
+require_once 'classes/Telegram.php';
 
 /**
  * Альтернатива wp_pagenavi. Создает ссылки пагинации на страницах архивов.

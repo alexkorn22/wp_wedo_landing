@@ -1,4 +1,5 @@
-<?php get_header();  ?>
+<?php get_header();
+?>
 
 <header>
     <div class="container b-head-height">
@@ -216,7 +217,8 @@
                             <div class="card">
                                 <form id="callback-form">
                                     <div class="input-container">
-                                        <input type="text" id="Username" name="Username" required>
+                                        <input type="text" id="Username" name="username" required>
+                                        <input type="hidden" name="type" value="freeConsultation">
                                         <label for="Username">Имя</label>
                                         <div class="bar"></div>
                                     </div>
