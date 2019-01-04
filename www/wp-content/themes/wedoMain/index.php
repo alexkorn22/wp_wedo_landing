@@ -1,5 +1,4 @@
-<?php get_header();
-?>
+<?php get_header(); ?>
 
 <header>
     <div class="container b-head-height">

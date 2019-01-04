@@ -1,5 +1,5 @@
 <?php
-require_once 'classes/App.php';
+require_once 'classes/classes.php';
 App::init();
 
 function d($var) {
@@ -12,6 +12,8 @@ function dd($var) {
     d($var);
     die;
 }
+
+require_once 'inc/admin-params.php';
 
 /* Удаляем H2 из пагинации */
 add_filter('navigation_markup_template', 'my_navigation_template', 10, 2 );

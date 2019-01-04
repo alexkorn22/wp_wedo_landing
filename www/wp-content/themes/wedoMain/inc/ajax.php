@@ -17,11 +17,11 @@ function sendAlert(){
         }
         $message = '<b>Обратная связь с wedo.com.ua </b>'. "\n";
         $message .= '<b>Имя: </b>'.$username. "\n";
-        $message .= '<b>Фамилия: </b>'.$phone . "\n";
+        $message .= '<b>Телефон: </b>'.$phone . "\n";
         $message .= '<b>Вопрос: </b>'.$_POST['select'] . "\n";
     }
     //  отправка
-    $tg = new Telegram('-226178797');
+    $tg = new Telegram( App::$app->adminParams->tgChatId, App::$app->adminParams->botToken);
     $tg->sendMessage($message);
 
     sendMaiAlert('Обратная связь с сайта WeDo',$message);
@@ -30,7 +30,6 @@ function sendAlert(){
 
 function sendMaiAlert($subject,$msg) {
 
-    $to = 'info@artorg.com.ua';
     $message = '
                 <html>
                     <head>
@@ -41,7 +40,7 @@ function sendMaiAlert($subject,$msg) {
                     </body>
                 </html>';
     $headers  = "Content-type: text/html; charset=utf-8 \r\n"; //Кодировка письма
-    $send = mail($to, $subject, $message, $headers);
+    $send = mail(App::$app->adminParams->mailAlerts, $subject, $message, $headers);
     return $send;
 }
 
