@@ -36,6 +36,12 @@ body {
     outline: none;
   }
 }
+
+.top-line {
+  .phone a {
+    padding: 0 5px;
+  }
+}
 //media
 @import "media";
 @import "owl.carousel.min.css";

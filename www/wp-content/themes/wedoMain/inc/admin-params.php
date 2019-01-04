@@ -43,10 +43,19 @@ function true_option_settings() {
 
     // Добавляем секцию
     add_settings_section( 'true_section_alerts', 'Настройки опповещений', '', $true_page );
+    add_settings_section( 'true_section_other', 'Остальное', '', $true_page );
 
     addSettingsFieldText('botToken', 'true_section_alerts', 'Токен бота телеграм');
     addSettingsFieldText('tgChatId', 'true_section_alerts', 'Ид чата');
     addSettingsFieldText('mailAlerts', 'true_section_alerts', 'E-mail');
+
+    $true_field_params = array(
+        'type'      => 'textarea',
+        'id'        => 'phones',
+        'desc'      => 'Пример большого текстового поля.'
+    );
+    add_settings_field( 'true_section_other', 'Номера телефонов через запятую', 'true_option_display_settings', $true_page, 'true_section_other', $true_field_params );
+
 
 }
 

@@ -12,10 +12,7 @@
                 </div>
             </div>
             <div class="col-6 col-md-6 col-lg-5 item">
-                <div class="phone">
-                    <a href="tel:+38(098)150-83-95">+38(098)150-83-95</a>
-
-                </div>
+                <? get_template_part('template-parts/phone-header')?>
             </div>
             <div class="col-2 col-md-1 col-lg-1 item">
                 <div class="hamburger-menu">

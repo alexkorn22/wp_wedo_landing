@@ -3,7 +3,9 @@
         <div class="row items justify-content-center align-items-center no-gutters">
             <div class="col-12 col-md-4 col-xl-3 item">
                 <div class="phone-footer hidden-sm-down">
-                    <p><a href="tel:+38(098)150-83-95">+38(098)150-83-95</a></p>
+                    <? foreach(App::$app->adminParams->getArPhones() as $item):?>
+                        <p><a href="tel:<?=$item['phone']?>"><?=$item['phone']?></a></p>
+                    <?endforeach;?>
                     <p>г.Запорожье</p>
                 </div>
             </div>

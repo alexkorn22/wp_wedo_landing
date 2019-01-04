@@ -1,6 +1,4 @@
 <?php
-require_once 'classes/classes.php';
-App::init();
 
 function d($var) {
     echo '<pre>';
@@ -12,6 +10,10 @@ function dd($var) {
     d($var);
     die;
 }
+
+require_once 'classes/classes.php';
+App::init();
+
 
 require_once 'inc/admin-params.php';
 
