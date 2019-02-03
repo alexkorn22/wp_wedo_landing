@@ -23,6 +23,9 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   font-family: $OpenSansLight;
+  strong {
+    font-family: $OpenSansSemibold;
+  }
   overflow-x: hidden;
   width: 100%;
   height: 100%;
@@ -42,6 +45,8 @@ body {
     padding: 0 5px;
   }
 }
+
+
 //media
 @import "media";
 @import "owl.carousel.min.css";

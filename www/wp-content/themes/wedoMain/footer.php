@@ -21,7 +21,6 @@
                         <li><a href="/#development">Разработка интернет-магазинов</a></li>
                         <li><a href="/#integration">Интеграция с учётными системами</a></li>
                         <li><a href="/#advancement">Продвижение интернет-магазинов</a></li>
-
                     </ul>
                 </div>
             </div>
